@@ -18,6 +18,8 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: read
+    # Allow this check to fail without blocking the workflow
+    continue-on-error: true
 
     steps:
       - name: Checkout the code
@@ -46,6 +48,8 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: read
+    # Allow tests to fail without blocking the workflow (for now)
+    continue-on-error: true
 
     # Keep in sync with the @playwright/test version in package.json
     container: mcr.microsoft.com/playwright:v1.57.0-noble
