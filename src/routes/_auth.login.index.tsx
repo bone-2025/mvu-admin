@@ -78,9 +78,6 @@ function RouteComponent() {
   const [serverNameInput, setServerNameInput] = useState(
     getDisplayValue(initialServerName),
   );
-  const [fullServerName, setFullServerName] = useState(
-    normalizeServerName(initialServerName),
-  );
   const [debouncedServerName, setDebouncedServerName, debouncer] =
     useDebouncedState(
       normalizeServerName(initialServerName),
@@ -105,7 +102,6 @@ function RouteComponent() {
       
       // 规范化并存储完整域名
       const normalized = normalizeServerName(inputValue);
-      setFullServerName(normalized);
       setDebouncedServerName(normalized);
     },
     [setDebouncedServerName],

@@ -18,6 +18,8 @@ jobs:
   build:
     name: Build and push Docker image
     runs-on: ubuntu-24.04
+    # Skip if Docker registry credentials are not configured
+    if: ${{ secrets.OCI_PUSH_USERNAME != '' && secrets.OCI_PUSH_PASSWORD != '' }}
 
     permissions:
       contents: read

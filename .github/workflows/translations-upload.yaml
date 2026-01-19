@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: read
+    # Skip if LOCALAZY_WRITE_KEY is not configured
+    if: ${{ secrets.LOCALAZY_WRITE_KEY != '' }}
 
     steps:
       - name: Checkout the code
