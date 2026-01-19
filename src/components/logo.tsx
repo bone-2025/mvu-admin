@@ -4,8 +4,6 @@
 
 import { useIntl } from "react-intl";
 
-import { assertNever } from "@/utils/never";
-
 import logoImage from "@/icons/Logo.png";
 import styles from "./logo.module.css";
 
@@ -100,7 +98,7 @@ interface ElementLogoProps extends React.ComponentProps<"div"> {
 
 /** The Element logo, reconstructed in three parts: the round logo, the text part and the badge */
 export const ElementLogo: React.FC<ElementLogoProps> = ({
-  variant,
+  variant: _variant,
   ...props
 }: ElementLogoProps) => {
   const intl = useIntl();
@@ -124,7 +122,7 @@ export const ElementLogo: React.FC<ElementLogoProps> = ({
         aria-hidden="true"
       />
       <span className={styles["logo-text"]} aria-hidden="true">
-        幕屋
+        {title}
       </span>
     </div>
   );
@@ -156,7 +154,8 @@ const ProBadgeText: React.FC<React.ComponentProps<"svg">> = (props) => (
 );
 
 /** The "Community" text for the badge */
-const CommunityBadgeText: React.FC<React.ComponentProps<"svg">> = (props) => (
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- Reserved for future use
+export const _CommunityBadgeText: React.FC<React.ComponentProps<"svg">> = (props) => (
   <svg
     width="68"
     height="13"
@@ -173,7 +172,8 @@ const CommunityBadgeText: React.FC<React.ComponentProps<"svg">> = (props) => (
 );
 
 /** The "TI-Messenger" text for the badge */
-const TIMBadgeText: React.FC<React.ComponentProps<"svg">> = (props) => (
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- Reserved for future use
+export const _TIMBadgeText: React.FC<React.ComponentProps<"svg">> = (props) => (
   <svg
     width="77"
     height="13"
@@ -190,7 +190,8 @@ const TIMBadgeText: React.FC<React.ComponentProps<"svg">> = (props) => (
 );
 
 /** The text part of the Element logo */
-const ElementTextPart: React.FC<React.ComponentProps<"svg">> = (props) => (
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- Reserved for future use
+export const _ElementTextPart: React.FC<React.ComponentProps<"svg">> = (props) => (
   <svg
     width="79"
     height="22"
@@ -207,7 +208,8 @@ const ElementTextPart: React.FC<React.ComponentProps<"svg">> = (props) => (
 );
 
 /** The logo part of the Element logo */
-const ElementLogoPart: React.FC<React.ComponentProps<"svg">> = (props) => (
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- Reserved for future use
+export const _ElementLogoPart: React.FC<React.ComponentProps<"svg">> = (props) => (
   <svg
     width="32"
     height="32"

@@ -3,12 +3,7 @@
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
 
 import {
-  AdminIcon,
-  DocumentIcon,
-  ExportArchiveIcon,
   HomeIcon,
-  InlineCodeIcon,
-  KeyIcon,
   LeaveIcon,
   UserProfileIcon,
 } from "@vector-im/compound-design-tokens/assets/web/icons";
@@ -17,7 +12,7 @@ import { FormattedMessage } from "react-intl";
 import * as Navigation from "@/components/navigation";
 import type { MasFeaturesStatus } from "@/utils/features";
 
-const AppNavigation = ({ features }: { features: MasFeaturesStatus }) => (
+const AppNavigation = ({ features: _features }: { features: MasFeaturesStatus }) => (
   <Navigation.Sidebar>
     <Navigation.NavLink Icon={HomeIcon} to="/">
       <FormattedMessage

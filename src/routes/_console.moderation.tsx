@@ -524,3 +524,6 @@ function RouteComponent() {
   );
 }
 */
+
+// Placeholder export to prevent empty file error
+export const _placeholder = true;

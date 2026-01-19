@@ -61,12 +61,12 @@ export default defineConfig(({ mode }) => ({
     }),
     tailwindcss(),
     vitePluginPrerender(),
-    vitePluginDevConfig(),
+    vitePluginDevelopmentConfig(),
   ],
 }));
 
 /** Plugin to inject development configuration */
-function vitePluginDevConfig(): Plugin {
+function vitePluginDevelopmentConfig(): Plugin {
   return {
     name: "dev-config",
     apply: "serve",

@@ -2,6 +2,10 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
 
+// SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
+//
+// SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+
 // 已注释：auditing 功能已禁用
 /*
 import { useSuspenseQuery } from "@tanstack/react-query";
@@ -82,3 +86,6 @@ function RouteComponent() {
   );
 }
 */
+
+// Placeholder export to prevent empty file error
+export const _placeholder = true;

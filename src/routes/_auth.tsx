@@ -8,8 +8,8 @@ import { defineMessage, FormattedMessage, useIntl } from "react-intl";
 
 import * as Footer from "@/components/footer";
 import { WelcomeLayout } from "@/components/layout";
+import logoImage from "@/icons/Logo.png";
 import { useAuthStore } from "@/stores/auth";
-import logoImage from "../icons/Logo.png";
 
 const welcomeMessage = defineMessage({
   id: "pages.landing.description",

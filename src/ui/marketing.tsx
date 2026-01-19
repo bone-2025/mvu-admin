@@ -2,10 +2,6 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
 
-import {
-  AdminIcon,
-  ExportArchiveIcon,
-} from "@vector-im/compound-design-tokens/assets/web/icons";
 import { Button } from "@vector-im/compound-web";
 import { FormattedMessage } from "react-intl";
 

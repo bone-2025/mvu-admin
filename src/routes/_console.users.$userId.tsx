@@ -1796,7 +1796,6 @@ function RouteComponent() {
   );
 
   const firstPhone = phonesData?.data?.length > 0 ? phonesData.data[0] : null;
-  const hasPhone = firstPhone !== null;
   const hasEmail = emailsData?.data?.length > 0;
 
   const deactivated = user.attributes.deactivated_at !== null;
