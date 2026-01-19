@@ -21,3 +21,9 @@ dist-ssr
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# Environment and config files
+.env
+.env.local
+.env.*.local
+localazy.json
