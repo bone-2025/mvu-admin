@@ -5,6 +5,7 @@
 import { useIntl } from "react-intl";
 
 import logoImage from "@/icons/Logo.png";
+
 import styles from "./logo.module.css";
 
 /** The full "Element" logo */
@@ -154,7 +155,8 @@ const ProBadgeText: React.FC<React.ComponentProps<"svg">> = (props) => (
 );
 
 /** The "Community" text for the badge */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars -- Reserved for future use
+// Reserved for future use
+// eslint-disable-next-line react-refresh/only-export-components
 export const _CommunityBadgeText: React.FC<React.ComponentProps<"svg">> = (props) => (
   <svg
     width="68"
@@ -172,7 +174,8 @@ export const _CommunityBadgeText: React.FC<React.ComponentProps<"svg">> = (props
 );
 
 /** The "TI-Messenger" text for the badge */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars -- Reserved for future use
+// Reserved for future use
+// eslint-disable-next-line react-refresh/only-export-components
 export const _TIMBadgeText: React.FC<React.ComponentProps<"svg">> = (props) => (
   <svg
     width="77"
@@ -190,7 +193,8 @@ export const _TIMBadgeText: React.FC<React.ComponentProps<"svg">> = (props) => (
 );
 
 /** The text part of the Element logo */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars -- Reserved for future use
+// Reserved for future use
+// eslint-disable-next-line react-refresh/only-export-components
 export const _ElementTextPart: React.FC<React.ComponentProps<"svg">> = (props) => (
   <svg
     width="79"
@@ -208,7 +212,8 @@ export const _ElementTextPart: React.FC<React.ComponentProps<"svg">> = (props) =
 );
 
 /** The logo part of the Element logo */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars -- Reserved for future use
+// Reserved for future use
+// eslint-disable-next-line react-refresh/only-export-components
 export const _ElementLogoPart: React.FC<React.ComponentProps<"svg">> = (props) => (
   <svg
     width="32"
