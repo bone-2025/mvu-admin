@@ -1,0 +1,53 @@
+// SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
+//
+// SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+
+import cx from "classnames";
+import { FormattedMessage } from "react-intl";
+
+import styles from "./footer.module.css";
+import { ElementLogotype } from "./logo";
+
+type RootProps = React.PropsWithChildren<{ className?: string }>;
+export const Root: React.FC<RootProps> = ({
+  children,
+  className,
+}: RootProps) => (
+  <footer className={cx(className, styles["root"])}>{children}</footer>
+);
+
+export const ElementLogo: React.FC = () => (
+  <a
+    href="https://element.io/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className={styles["element-logo"]}
+  >
+    <ElementLogotype />
+  </a>
+);
+
+export const Divider: React.FC = () => (
+  <div
+    role="separator"
+    aria-orientation="vertical"
+    className={styles["divider"]}
+  />
+);
+
+type SectionProps = React.PropsWithChildren;
+export const Section: React.FC<SectionProps> = ({ children }: SectionProps) => (
+  <div className={styles["section"]}>{children}</div>
+);
+
+export const CopyrightNotice: React.FC = () => (
+  <div className={styles["copyright-notice"]}>
+    <FormattedMessage
+      id="footer.copyright_notice"
+      // eslint-disable-next-line formatjs/no-emoji -- That's not an emoji
+      defaultMessage="Copyright © {now, date, ::yyyy}"
+      description="The copyright notice on the footer"
+      values={{ now: new Date() }}
+    />
+  </div>
+);

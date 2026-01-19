@@ -1,0 +1,116 @@
+// SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
+//
+// SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+
+import { queryOptions, useSuspenseQuery } from "@tanstack/react-query";
+import { useEffect, useMemo, useSyncExternalStore } from "react";
+import {
+  createIntl,
+  createIntlCache,
+  RawIntlProvider,
+  type MessageFormatElement,
+} from "react-intl";
+
+import type messages from "../translations/extracted/en.json";
+
+import { queryClient } from "./query";
+
+declare global {
+  // eslint-disable-next-line @typescript-eslint/no-namespace
+  namespace FormatjsIntl {
+    interface Message {
+      ids: keyof typeof messages;
+    }
+  }
+}
+
+type LocaleData = Record<keyof typeof messages, MessageFormatElement[]>;
+
+// This generates a map of locale names a function which loads them
+// {
+//   "./en.json": () => import("../whatever/assets/root/en-aabbcc.json"),
+//   ...
+// }
+const locales = import.meta.glob<LocaleData>("./*.json", {
+  base: "../translations/compiled/",
+  import: "default",
+});
+
+const getLocaleLoader = (
+  name: string,
+): (() => Promise<LocaleData>) | undefined => locales[`./${name}.json`];
+
+const DEFAULT_LOCALE = "zh-Hans";
+
+// eslint-disable-next-line react-refresh/only-export-components -- We should probably move that?
+export const AVAILABLE_LOCALES = Object.keys(locales)
+  .map((url) => {
+    const lang = url.match(/\/([^/]+)\.json$/)?.[1];
+    if (!lang) {
+      throw new Error(`Could not parse locale URL ${url}`);
+    }
+    return lang;
+  })
+  .toSorted();
+
+/**
+ * Figure out the best language out of the available ones
+ *
+ * @returns The best supported language
+ */
+const getBestLocale = (): string => DEFAULT_LOCALE;
+
+/**
+ * A hook that returns the best supported language, synced with the browser's
+ * language change events
+ *
+ * @returns The best supported language
+ */
+// eslint-disable-next-line react-refresh/only-export-components
+export const useBestLocale = (): string =>
+  useSyncExternalStore((callback) => {
+    globalThis.addEventListener("languagechange", callback);
+    return () => globalThis.removeEventListener("languagechange", callback);
+  }, getBestLocale);
+
+const localeQuery = (locale: string) =>
+  queryOptions({
+    queryKey: ["language", locale],
+    queryFn: async (): Promise<LocaleData> => {
+      const loader = getLocaleLoader(locale);
+      if (!loader) {
+        throw new Error(`Could not find locale loader for ${locale}`);
+      }
+
+      return await loader();
+    },
+    staleTime: Infinity,
+  });
+
+const cache = createIntlCache();
+
+// eslint-disable-next-line react-refresh/only-export-components
+export const preloadLocale = async (): Promise<void> => {
+  await queryClient.ensureQueryData(localeQuery(DEFAULT_LOCALE));
+};
+
+export const IntlProvider = ({ children }: { children: React.ReactNode }) => {
+  const locale = DEFAULT_LOCALE;
+
+  useEffect(() => {
+    if (document && document.documentElement) {
+      document.documentElement.lang = locale;
+    }
+  }, [locale]);
+
+  // Load the language data. This will suspend during loading
+  const { data: messages } = useSuspenseQuery(localeQuery(locale));
+
+  const intl = useMemo(
+    () =>
+      createIntl({ messages, locale, defaultLocale: DEFAULT_LOCALE }, cache),
+    [messages, locale],
+  );
+
+  return <RawIntlProvider value={intl}>{children}</RawIntlProvider>;
+};

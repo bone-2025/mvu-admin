@@ -1,0 +1,46 @@
+/*
+ * SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
+ *
+ * SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+ */
+
+.language-row-list {
+  display: flex;
+  flex-direction: column;
+  transition:
+    background-color 0.1s,
+    color 0.1s;
+  gap: var(--cpd-space-1x);
+  border-radius: var(--cpd-space-2x);
+
+  &:focus-visible {
+    outline: 2px solid var(--cpd-color-border-focused);
+  }
+
+  &[aria-busy="true"] {
+    background-color: var(--cpd-color-bg-canvas-disabled);
+    color: var(--cpd-color-text-disabled);
+  }
+
+  & .language-row {
+    cursor: pointer;
+    padding: var(--cpd-space-1x) var(--cpd-space-2x);
+    border-radius: var(--cpd-space-2x);
+    font: var(--cpd-font-body-md-semibold);
+    letter-spacing: var(--cpd-letter-spacing-body-md);
+
+    &:hover {
+      background-color: var(--cpd-color-bg-subtle-secondary);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--cpd-color-border-focused);
+      outline-offset: 2px;
+    }
+
+    &[aria-selected="true"],
+    &[aria-selected="true"]:hover {
+      background-color: var(--cpd-color-bg-subtle-primary);
+    }
+  }
+}

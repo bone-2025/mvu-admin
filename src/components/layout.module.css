@@ -1,0 +1,52 @@
+/*
+ * SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
+ *
+ * SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+ */
+
+.layout,
+.welcome-layout {
+  /* Fallback for browsers not supporting the svh unit */
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+
+  /* We need to create a new stacking context for the header to be above the content */
+  position: relative;
+  z-index: 0;
+}
+
+.welcome-layout {
+  padding-inline: var(--cpd-space-4x);
+}
+
+.welcome-gradient {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--cpd-color-bg-canvas-default);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("../background/gradient-desktop.png?inline");
+  background-size: 100% 100%;
+
+  /* This is a trick to make the background its own compositing layer, else the
+     rendering performance gets really bad, as the SVG is expensive to render */
+  backface-visibility: hidden;
+  will-change: opacity;
+}
+
+@media screen and (width >= 1920px) {
+  .layout {
+    margin: auto;
+    border-inline: solid 1px var(--cpd-color-bg-subtle-primary);
+    max-width: 1920px;
+  }
+}
+
+@media screen and (width <= 768px) {
+  .welcome-gradient {
+    background-image: url("../background/gradient-mobile.png?inline");
+  }
+}

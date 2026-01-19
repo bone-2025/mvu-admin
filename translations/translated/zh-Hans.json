@@ -1,0 +1,1028 @@
+{
+  "action.add": {
+    "message": "添加"
+  },
+  "action.cancel": {
+    "message": "取消"
+  },
+  "action.clear": {
+    "message": "清除"
+  },
+  "action.close": {
+    "message": "关闭"
+  },
+  "action.copy": {
+    "message": "复制"
+  },
+  "action.delete": {
+    "message": "删除"
+  },
+  "action.go_back": {
+    "message": "后退"
+  },
+  "action.remove": {
+    "message": "移除"
+  },
+  "action.retry": {
+    "message": "重试"
+  },
+  "action.sign_in": {
+    "message": "登录"
+  },
+  "action.sign_out": {
+    "message": "注销"
+  },
+  "common.email_address": {
+    "message": "邮件地址"
+  },
+  "common.filter": {
+    "message": "筛选"
+  },
+  "errors.http_fetch": {
+    "message": "{url} 请求失败"
+  },
+  "errors.http_fetch_json_decoding": {
+    "message": "来自 {url} 的 JSON 响应解码失败"
+  },
+  "errors.http_status": {
+    "message": "{url} 请求失败，状态码：{status} {statusText}"
+  },
+  "errors.matrix_standard": {
+    "message": "对主服务器的请求失败，错误代码：{errorCode}。另外服务器还返回了以下错误信息：{errorMessage}"
+  },
+  "errors.not_logged_in": {
+    "message": "未登录"
+  },
+  "footer.copyright_notice": {
+    "message": "Copyright © {now, date, ::yyyy}"
+  },
+  "footer.help_and_support": {
+    "message": "帮助与支持"
+  },
+  "footer.legal": {
+    "message": "法律信息"
+  },
+  "footer.privacy": {
+    "message": "隐私"
+  },
+  "header.user_menu.title": {
+    "message": "账户菜单"
+  },
+  "marketing.also_available_in_pro.description": {
+    "message": "<p><link>ESS Pro</link> 是 Element 的商业后端发行版。</p> <p>它包含 ESS Community 的所有功能，以及专为专业环境设计的额外功能和服务，支持从 100 多用户到数百万用户的大规模部署。</p> <p>它旨在支持企业级需求，包括高级 IAM、合规性、可扩展性、高可用性和多租户。</p>"
+  },
+  "marketing.also_available_in_pro.title": {
+    "message": "Pro 版本也可用…"
+  },
+  "marketing.also_available_in_pro.upgrade": {
+    "message": "升级到 Pro"
+  },
+  "marketing.auditing.description": {
+    "message": "<p>审计功能使组织能够记录端到端加密的对话和房间事件，以满足合规性或法律要求。</p> <p>启用后，所有最终用户都可以看到哪些房间正在被记录，以确保审计过程的透明度。</p> <p>可以配置审计功能以满足组织的特定要求。例如，可以排除两个人之间的直接消息，以便只记录群组对话。</p> <p>审计数据以机器可读的事件流形式存储在 JSON 格式中，可以存储在文件存储或 S3 上，并可以转发到日志分析工具进行进一步过滤和分析。</p>"
+  },
+  "marketing.auditing.title": {
+    "message": "审计"
+  },
+  "marketing.moderation.description": {
+    "message": "<p>审核功能使组织能够从中心点管理所有房间。一个\"审核员\"账户将以房间管理员权限加入指定的房间。服务器管理员可以从管理控制台无缝模拟该账户来管理和审核他们的房间。</p> <ul> <li>管理房间及其设置（名称、主题、权限等）</li> <li>管理房间成员</li> <li>删除不需要的消息和上传的媒体</li> <li>恢复被遗弃的房间（所有用户都已离开）</li> <li>审核员账户可以或不可以读取加密消息内容（可配置）</li> </ul>"
+  },
+  "marketing.moderation.title": {
+    "message": "审核"
+  },
+  "navigation.auditing": {
+    "message": "审计"
+  },
+  "navigation.dashboard": {
+    "message": "仪表盘"
+  },
+  "navigation.documentation": {
+    "message": "文档"
+  },
+  "navigation.moderation": {
+    "message": "审核"
+  },
+  "navigation.personal_tokens": {
+    "message": "个人 Token"
+  },
+  "navigation.registration_tokens": {
+    "message": "注册 Tokens"
+  },
+  "navigation.rooms": {
+    "message": "房间"
+  },
+  "navigation.users": {
+    "message": "用户"
+  },
+  "pages.auditing.title": {
+    "message": "审计"
+  },
+  "pages.auditing.unavailable_alert.description": {
+    "message": "此功能在 ESS Community 中不可用。升级到 ESS Pro 以启用它。"
+  },
+  "pages.auditing.unavailable_alert.title": {
+    "message": "审计是 ESS Pro 中可用的功能"
+  },
+  "pages.dashboard.current_ess_version": {
+    "message": "ESS 版本"
+  },
+  "pages.dashboard.latest_ess_version": {
+    "message": "最新的 ESS 版本"
+  },
+  "pages.dashboard.new_ess_release": {
+    "message": "（新版本）"
+  },
+  "pages.dashboard.registered_users_count": {
+    "message": "已注册的用户"
+  },
+  "pages.dashboard.rooms_count": {
+    "message": "房间总数"
+  },
+  "pages.dashboard.running_latest_ess": {
+    "message": "（你已在运行最新版本）"
+  },
+  "pages.dashboard.synapse_version": {
+    "message": "Synapse 版本"
+  },
+  "pages.dashboard.title": {
+    "message": "仪表盘"
+  },
+  "pages.generic_error.go_home": {
+    "message": "返回首页"
+  },
+  "pages.generic_error.sign_out_and_reload": {
+    "message": "注销并重载"
+  },
+  "pages.generic_error.technical_details.item": {
+    "message": "{name}：{message}"
+  },
+  "pages.generic_error.text": {
+    "message": "这可能是由某个 bug 或无法连接到主服务器导致的。你可以重新加载页面、返回上一页或重置所有内容并返回到主页。"
+  },
+  "pages.generic_error.title": {
+    "message": "发生意外错误"
+  },
+  "pages.landing.description": {
+    "message": "幕屋后台管理系统"
+  },
+  "pages.login.errors.no_auth_metadata": {
+    "message": "载入服务器认证元数据失败。Synapse 可能无法访问或未被配置对接幕屋后台管理系统。"
+  },
+  "pages.login.errors.no_client_metadata": {
+    "message": "无法注册客户端。幕屋后台管理系统 可能无法访问或配置错误。"
+  },
+  "pages.login.errors.no_well_known": {
+    "message": "服务器不存在，请检查后再试"
+  },
+  "pages.login.get_started": {
+    "message": "开始"
+  },
+  "pages.login.server_name": {
+    "message": "服务器名称"
+  },
+  "pages.login.title": {
+    "message": "登录"
+  },
+  "pages.moderation.description": {
+    "message": "以 <b>{mxid}</b> 身份登录，以在任何房间中执行管理操作。"
+  },
+  "pages.moderation.disabled_alert.description": {
+    "message": "此功能是您订阅的一部分。您可以请求管理员启用它。"
+  },
+  "pages.moderation.disabled_alert.title": {
+    "message": "审核功能当前已禁用"
+  },
+  "pages.moderation.errors.cant_open.description": {
+    "message": "您的浏览器正在阻止打开弹出窗口。请确保您允许来自此网站的弹出窗口。"
+  },
+  "pages.moderation.errors.cant_open.title": {
+    "message": "无法在新窗口中打开审核界面"
+  },
+  "pages.moderation.errors.closed.description": {
+    "message": "无法登录审核界面，因为它在完成登录之前就关闭了"
+  },
+  "pages.moderation.errors.closed.title": {
+    "message": "审核界面关闭得太快"
+  },
+  "pages.moderation.errors.generic.title": {
+    "message": "打开审核界面时发生意外错误"
+  },
+  "pages.moderation.missing_ui_address.description": {
+    "message": "您的部署中已启用审核功能，但未启用 Element Web，而审核界面需要 Element Web 才能工作。"
+  },
+  "pages.moderation.missing_ui_address.title": {
+    "message": "审核界面需要启用 Element Web"
+  },
+  "pages.moderation.recovery_key.copied": {
+    "message": "恢复密钥已复制"
+  },
+  "pages.moderation.recovery_key.copy_failed": {
+    "message": "无法复制恢复密钥"
+  },
+  "pages.moderation.recovery_key.help": {
+    "message": "这是用于启用读取加密消息的恢复密钥。"
+  },
+  "pages.moderation.recovery_key.label": {
+    "message": "恢复密钥"
+  },
+  "pages.moderation.title": {
+    "message": "审核"
+  },
+  "pages.moderation.unavailable_alert.description": {
+    "message": "此功能在 ESS Community 中不可用。升级到 ESS Pro 以启用它。"
+  },
+  "pages.moderation.unavailable_alert.title": {
+    "message": "审核是 ESS Pro 中可用的功能"
+  },
+  "pages.personal_tokens.acting_user_column": {
+    "message": "代理用户"
+  },
+  "pages.personal_tokens.acting_user_label": {
+    "message": "代理用户"
+  },
+  "pages.personal_tokens.actor_user_help": {
+    "message": "此 Token 将以用户的名义执行以下操作"
+  },
+  "pages.personal_tokens.actor_user_label": {
+    "message": "代理用户"
+  },
+  "pages.personal_tokens.add_token_title": {
+    "message": "添加个人 Token"
+  },
+  "pages.personal_tokens.cant_regenerate_tooltip": {
+    "message": "仅{ownerMxid} 可重新生成此 Token"
+  },
+  "pages.personal_tokens.cant_regenerate_tooltip_generic": {
+    "message": "仅 Token 的所有者可以重新生成"
+  },
+  "pages.personal_tokens.count": {
+    "message": "{count, plural, =0 {没有个人 Token} one {# 个个人 Token} other {# 个个人 Token}}"
+  },
+  "pages.personal_tokens.create_error": {
+    "message": "个人 Token 创建失败"
+  },
+  "pages.personal_tokens.create_success": {
+    "message": "个人 Token 创建成功"
+  },
+  "pages.personal_tokens.create_token": {
+    "message": "创建 Token"
+  },
+  "pages.personal_tokens.created_at_label": {
+    "message": "创建于"
+  },
+  "pages.personal_tokens.description": {
+    "message": "个人 Token是具有特定权限的长效访问 Token，包括 Synapse 与 MAS 管理 API 的访问权限。他们可以用于自动化任务与集成的创建。"
+  },
+  "pages.personal_tokens.device_id_help": {
+    "message": "留空以随机生成 10 个字符的设备 ID"
+  },
+  "pages.personal_tokens.device_id_label": {
+    "message": "设备 ID"
+  },
+  "pages.personal_tokens.device_id_placeholder": {
+    "message": "ABCDEFGHIJ"
+  },
+  "pages.personal_tokens.expires_at_column": {
+    "message": "有效期到"
+  },
+  "pages.personal_tokens.expires_at_label": {
+    "message": "有效期到"
+  },
+  "pages.personal_tokens.expires_in_help": {
+    "message": "留空表示 Token 永不过期"
+  },
+  "pages.personal_tokens.expires_in_label": {
+    "message": "剩余有效期（天）"
+  },
+  "pages.personal_tokens.expires_in_placeholder": {
+    "message": "30"
+  },
+  "pages.personal_tokens.filter.active": {
+    "message": "活跃"
+  },
+  "pages.personal_tokens.filter.expires": {
+    "message": "含有效期"
+  },
+  "pages.personal_tokens.filter.no_expiry": {
+    "message": "永不过期"
+  },
+  "pages.personal_tokens.filter.revoked": {
+    "message": "已撤消"
+  },
+  "pages.personal_tokens.filter.scope_mas_admin": {
+    "message": "访问 MAS 管理 API"
+  },
+  "pages.personal_tokens.filter.scope_matrix_client": {
+    "message": "访问 Matrix 客户端 - 服务器 API"
+  },
+  "pages.personal_tokens.filter.scope_synapse_admin": {
+    "message": "访问 Synapse 管理 API"
+  },
+  "pages.personal_tokens.last_active_column": {
+    "message": "最后活跃"
+  },
+  "pages.personal_tokens.last_active_ip_label": {
+    "message": "最后活跃 IP"
+  },
+  "pages.personal_tokens.last_active_label": {
+    "message": "最后活跃"
+  },
+  "pages.personal_tokens.loading_more": {
+    "message": "载入更多 Token…"
+  },
+  "pages.personal_tokens.name_column": {
+    "message": "名称"
+  },
+  "pages.personal_tokens.name_help": {
+    "message": "为 Token 添加一个易于理解的名称以用于识别"
+  },
+  "pages.personal_tokens.name_label": {
+    "message": "Token 名称"
+  },
+  "pages.personal_tokens.name_placeholder": {
+    "message": "我的应用程序 Token"
+  },
+  "pages.personal_tokens.never_expires": {
+    "message": "永不过期"
+  },
+  "pages.personal_tokens.never_used": {
+    "message": "从未使用过"
+  },
+  "pages.personal_tokens.not_found.description": {
+    "message": "你要查找的 Token 不存在或已被删除。"
+  },
+  "pages.personal_tokens.not_found.title": {
+    "message": "个人 Token 未找到"
+  },
+  "pages.personal_tokens.owner_user_label": {
+    "message": "所有者"
+  },
+  "pages.personal_tokens.regenerate_confirm": {
+    "message": "重新生成 Token"
+  },
+  "pages.personal_tokens.regenerate_error": {
+    "message": "个人 Token 重新生成失败"
+  },
+  "pages.personal_tokens.regenerate_expires_help": {
+    "message": "留空以保持与之前相同的有效期，或设置新的有效期"
+  },
+  "pages.personal_tokens.regenerate_success": {
+    "message": "个人 Token 已成功重新生成"
+  },
+  "pages.personal_tokens.regenerate_token": {
+    "message": "重新生成 Token"
+  },
+  "pages.personal_tokens.regenerate_token_title": {
+    "message": "重新生成个人 Token"
+  },
+  "pages.personal_tokens.regenerate_warning": {
+    "message": "将生成新的访问 Token，并使当前的访问 Token 失效。所有使用当前 Token 的应用程序都需要更新。"
+  },
+  "pages.personal_tokens.revoke_success": {
+    "message": "个人 Token 已成功撤消"
+  },
+  "pages.personal_tokens.revoke_token": {
+    "message": "撤消 Token"
+  },
+  "pages.personal_tokens.revoked_at_label": {
+    "message": "撤消于"
+  },
+  "pages.personal_tokens.scope_device_help": {
+    "message": "配置 Matrix 设备"
+  },
+  "pages.personal_tokens.scope_mas_admin_help": {
+    "message": "访问 MAS 管理 API"
+  },
+  "pages.personal_tokens.scope_matrix_client_help": {
+    "message": "访问 Matrix 客户端 - 服务器 API"
+  },
+  "pages.personal_tokens.scope_synapse_admin_help": {
+    "message": "访问 Synapse 管理 API"
+  },
+  "pages.personal_tokens.scopes_label": {
+    "message": "权限范围"
+  },
+  "pages.personal_tokens.status.active": {
+    "message": "活跃"
+  },
+  "pages.personal_tokens.status.column": {
+    "message": "状态"
+  },
+  "pages.personal_tokens.status.expired": {
+    "message": "已过期"
+  },
+  "pages.personal_tokens.status.label": {
+    "message": "状态"
+  },
+  "pages.personal_tokens.status.revoked": {
+    "message": "已撤消"
+  },
+  "pages.personal_tokens.title": {
+    "message": "个人 Token"
+  },
+  "pages.personal_tokens.token_created_description": {
+    "message": "您的个人 Token 已创建。请立即复制它，因为它不会再次显示。"
+  },
+  "pages.personal_tokens.token_created_title": {
+    "message": "个人 Token 已创建"
+  },
+  "pages.personal_tokens.token_regenerated_description": {
+    "message": "您的个人 Token 已重新生成。请立即复制它，因为它不会再次显示。"
+  },
+  "pages.personal_tokens.token_regenerated_title": {
+    "message": "Token 已重新生成"
+  },
+  "pages.registration_tokens.auto_generate_placeholder": {
+    "message": "留空则自动生成"
+  },
+  "pages.registration_tokens.create_token.error": {
+    "message": "Token 创建失败"
+  },
+  "pages.registration_tokens.create_token.submit": {
+    "message": "创建 Token"
+  },
+  "pages.registration_tokens.create_token.success": {
+    "message": "Token 创建成功"
+  },
+  "pages.registration_tokens.create_token.title": {
+    "message": "创建注册 Token"
+  },
+  "pages.registration_tokens.created_at_column": {
+    "message": "创建于"
+  },
+  "pages.registration_tokens.created_at_label": {
+    "message": "创建于"
+  },
+  "pages.registration_tokens.custom_token_help": {
+    "message": "自定义 Token 字符串为可选。若留空则自动生成。"
+  },
+  "pages.registration_tokens.custom_token_label": {
+    "message": "自定义 Token"
+  },
+  "pages.registration_tokens.edit_properties": {
+    "message": "编辑属性"
+  },
+  "pages.registration_tokens.edit_token_title": {
+    "message": "编辑注册 Token"
+  },
+  "pages.registration_tokens.expires_at_field": {
+    "message": "有效期到"
+  },
+  "pages.registration_tokens.expires_at_help": {
+    "message": "当 Token 何时过期。若要使 Token 永不过期请留空。"
+  },
+  "pages.registration_tokens.expires_at_label": {
+    "message": "有效期到"
+  },
+  "pages.registration_tokens.filters.active_only": {
+    "message": "激活"
+  },
+  "pages.registration_tokens.filters.expired_only": {
+    "message": "已过期"
+  },
+  "pages.registration_tokens.filters.revoked_only": {
+    "message": "已撤消"
+  },
+  "pages.registration_tokens.filters.unused_only": {
+    "message": "未使用"
+  },
+  "pages.registration_tokens.filters.used_only": {
+    "message": "已使用"
+  },
+  "pages.registration_tokens.loading_more": {
+    "message": "载入更多 Token…"
+  },
+  "pages.registration_tokens.never_expires": {
+    "message": "永不过期"
+  },
+  "pages.registration_tokens.no_expiration_placeholder": {
+    "message": "无过期时间"
+  },
+  "pages.registration_tokens.not_found.description": {
+    "message": "在 {serverName} 上无法找到请求的 Token（{tokenId}）。"
+  },
+  "pages.registration_tokens.not_found.title": {
+    "message": "未找到注册 Token"
+  },
+  "pages.registration_tokens.revoke_token": {
+    "message": "撤消 Token"
+  },
+  "pages.registration_tokens.revoked_at_label": {
+    "message": "撤消于"
+  },
+  "pages.registration_tokens.save_changes": {
+    "message": "保存更改"
+  },
+  "pages.registration_tokens.status.active": {
+    "message": "活跃"
+  },
+  "pages.registration_tokens.status.column": {
+    "message": "状态"
+  },
+  "pages.registration_tokens.status.expired": {
+    "message": "已过期"
+  },
+  "pages.registration_tokens.status.invalid": {
+    "message": "无效"
+  },
+  "pages.registration_tokens.status.label": {
+    "message": "状态"
+  },
+  "pages.registration_tokens.status.revoked": {
+    "message": "已撤消"
+  },
+  "pages.registration_tokens.status.used_up": {
+    "message": "已用尽"
+  },
+  "pages.registration_tokens.title": {
+    "message": "注册 Tokens"
+  },
+  "pages.registration_tokens.token_column": {
+    "message": "令牌"
+  },
+  "pages.registration_tokens.token_count": {
+    "message": "{COUNT, plural, zero {没有 Token} one {# 个 Token} other {# 个 Token}}"
+  },
+  "pages.registration_tokens.token_uses.limited": {
+    "message": "{uses, number} / {limit, number}"
+  },
+  "pages.registration_tokens.token_uses.unlimited": {
+    "message": "{uses, number} / ∞"
+  },
+  "pages.registration_tokens.unlimited_placeholder": {
+    "message": "无限制"
+  },
+  "pages.registration_tokens.unlimited_uses_placeholder": {
+    "message": "留空则不限制使用量"
+  },
+  "pages.registration_tokens.unrevoke_token": {
+    "message": "反转撤消 Token"
+  },
+  "pages.registration_tokens.usage_count_label": {
+    "message": "使用次数"
+  },
+  "pages.registration_tokens.usage_limit_field": {
+    "message": "使用次数限制"
+  },
+  "pages.registration_tokens.usage_limit_help": {
+    "message": "此 Token 的最大使用次数。留空则表示不限制使用次数。"
+  },
+  "pages.registration_tokens.usage_limit_label": {
+    "message": "使用次数限制"
+  },
+  "pages.registration_tokens.uses_column": {
+    "message": "使用次数"
+  },
+  "pages.registration_tokens.valid_until_column": {
+    "message": "有效期到"
+  },
+  "pages.rooms.delete_room.alert.description": {
+    "message": "这将永久删除所有上传到服务器的消息或媒体，并从目录中移除此房间。成员将失去对其消息的访问权限，房间将从他们的房间列表中移除。"
+  },
+  "pages.rooms.delete_room.alert.title": {
+    "message": "您即将删除房间数据"
+  },
+  "pages.rooms.delete_room.block.help": {
+    "message": "防止用户在删除后重新加入房间。"
+  },
+  "pages.rooms.delete_room.block.label": {
+    "message": "阻止房间"
+  },
+  "pages.rooms.delete_room.button": {
+    "message": "永久删除"
+  },
+  "pages.rooms.delete_room.error": {
+    "message": "安排房间删除失败"
+  },
+  "pages.rooms.delete_room.success": {
+    "message": "房间删除已安排"
+  },
+  "pages.rooms.delete_room.title": {
+    "message": "删除此房间？"
+  },
+  "pages.rooms.deletion.failure.description": {
+    "message": "房间删除任务在 {timestamp, date, short} {timestamp, time, short} 失败，错误：{error}"
+  },
+  "pages.rooms.deletion.failure.title": {
+    "message": "删除失败"
+  },
+  "pages.rooms.deletion.in_progress.description": {
+    "message": "房间删除任务自 {timestamp, date, short} {timestamp, time, short} 起正在进行中。"
+  },
+  "pages.rooms.deletion.in_progress.title": {
+    "message": "删除进行中"
+  },
+  "pages.rooms.deletion.success.description": {
+    "message": "房间删除任务于 {timestamp, date, short} {timestamp, time, short} 成功完成。"
+  },
+  "pages.rooms.deletion.success.title": {
+    "message": "删除成功"
+  },
+  "pages.rooms.filters.empty_rooms": {
+    "message": "空房间"
+  },
+  "pages.rooms.filters.non_empty_rooms": {
+    "message": "非空房间"
+  },
+  "pages.rooms.filters.private_rooms": {
+    "message": "私有房间"
+  },
+  "pages.rooms.filters.public_rooms": {
+    "message": "公共房间"
+  },
+  "pages.rooms.not_found.description": {
+    "message": "在 {serverName} 上无法找到房间（{roomId}）。"
+  },
+  "pages.rooms.not_found.title": {
+    "message": "未找到房间"
+  },
+  "pages.rooms.room_count": {
+    "message": "{COUNT, plural, zero {没有房间} one {# 个房间} other {# 个房间}}"
+  },
+  "pages.rooms.title": {
+    "message": "房间"
+  },
+  "pages.rooms.detail.join_rules.public": {
+    "message": "公开"
+  },
+  "pages.rooms.detail.join_rules.invite": {
+    "message": "邀请"
+  },
+  "pages.rooms.detail.join_rules.restricted": {
+    "message": "受限"
+  },
+  "pages.rooms.detail.join_rules.knock": {
+    "message": "敲门"
+  },
+  "pages.rooms.detail.visibility.label": {
+    "message": "可见性"
+  },
+  "pages.rooms.detail.visibility.public": {
+    "message": "公开"
+  },
+  "pages.rooms.detail.visibility.private": {
+    "message": "私有"
+  },
+  "pages.rooms.detail.encryption.label": {
+    "message": "加密"
+  },
+  "pages.rooms.detail.encryption.none": {
+    "message": "无"
+  },
+  "pages.rooms.detail.encryption.e2ee": {
+    "message": "端到端加密"
+  },
+  "pages.rooms.detail.join_rules.label": {
+    "message": "加入规则"
+  },
+  "pages.rooms.detail.guest_access.label": {
+    "message": "访客访问"
+  },
+  "pages.rooms.detail.guest_access.allowed": {
+    "message": "允许"
+  },
+  "pages.rooms.detail.guest_access.forbidden": {
+    "message": "禁止"
+  },
+  "pages.rooms.detail.history_visibility.label": {
+    "message": "历史可见性"
+  },
+  "pages.rooms.detail.history_visibility.invited": {
+    "message": "已邀请"
+  },
+  "pages.rooms.detail.history_visibility.joined": {
+    "message": "已加入"
+  },
+  "pages.rooms.detail.history_visibility.shared": {
+    "message": "共享"
+  },
+  "pages.rooms.detail.history_visibility.world_readable": {
+    "message": "世界可读"
+  },
+  "pages.rooms.detail.federatable.label": {
+    "message": "可联合"
+  },
+  "pages.rooms.detail.yes": {
+    "message": "是"
+  },
+  "pages.rooms.detail.no": {
+    "message": "否"
+  },
+  "pages.rooms.detail.unknown": {
+    "message": "未知"
+  },
+  "pages.rooms.detail.room_version.label": {
+    "message": "房间版本"
+  },
+  "pages.rooms.detail.room_type.label": {
+    "message": "房间类型"
+  },
+  "pages.rooms.detail.room_type.standard": {
+    "message": "标准房间"
+  },
+  "pages.rooms.detail.total_members.label": {
+    "message": "总成员数"
+  },
+  "pages.rooms.detail.local_members.label": {
+    "message": "本地成员数"
+  },
+  "pages.rooms.detail.local_devices.label": {
+    "message": "本地设备数"
+  },
+  "pages.rooms.detail.creator.label": {
+    "message": "创建者"
+  },
+  "pages.rooms.detail.state_events.label": {
+    "message": "状态事件"
+  },
+  "pages.rooms.detail.avatar_url.label": {
+    "message": "头像 URL"
+  },
+  "pages.rooms.detail.forgotten.label": {
+    "message": "已遗忘"
+  },
+  "pages.users.add_email.button": {
+    "message": "添加邮件地址"
+  },
+  "pages.users.add_email.description": {
+    "message": "为此用户添加邮件地址"
+  },
+  "pages.users.add_email.error": {
+    "message": "邮件地址添加失败"
+  },
+  "pages.users.add_email.error.email_invalid": {
+    "message": "邮件地址无效"
+  },
+  "pages.users.add_email.error.email_missing": {
+    "message": "此字段为必填项"
+  },
+  "pages.users.add_email.success": {
+    "message": "已添加邮件地址"
+  },
+  "pages.users.add_email.title": {
+    "message": "添加邮件地址"
+  },
+  "pages.users.add_upstream_link.error": {
+    "message": "上游账户关联失败"
+  },
+  "pages.users.add_upstream_link.success": {
+    "message": "已与上游账户关联"
+  },
+  "pages.users.deactivate_account.alert.description": {
+    "message": "这会自动从用户的所有设备中注销、移除所有访问 token、删除所有第三方 ID 并永久删除其账户数据。"
+  },
+  "pages.users.deactivate_account.alert.title": {
+    "message": "你即将删除用户数据"
+  },
+  "pages.users.deactivate_account.button": {
+    "message": "停用账户"
+  },
+  "pages.users.deactivate_account.error": {
+    "message": "停用账户失败"
+  },
+  "pages.users.deactivate_account.success": {
+    "message": "账户已停用"
+  },
+  "pages.users.deactivate_account.title": {
+    "message": "停用此用户？"
+  },
+  "pages.users.delete_email.description": {
+    "message": "你确定要为该用户（{mxid}）移除此邮件地址（{email}）？"
+  },
+  "pages.users.delete_email.error": {
+    "message": "删除邮件地址失败"
+  },
+  "pages.users.delete_email.success": {
+    "message": "邮件地址已删除"
+  },
+  "pages.users.delete_email.title": {
+    "message": "移除邮件地址？"
+  },
+  "pages.users.delete_upstream_link.description": {
+    "message": "你确定要删除此用户（{mxid}）与该上游账户（{subject} ）的关联？"
+  },
+  "pages.users.delete_upstream_link.error": {
+    "message": "上游关联删除失败"
+  },
+  "pages.users.delete_upstream_link.success": {
+    "message": "上游关联已删除"
+  },
+  "pages.users.delete_upstream_link.title": {
+    "message": "删除与上游账户的关联？"
+  },
+  "pages.users.filters.active": {
+    "message": "激活用户"
+  },
+  "pages.users.filters.admins": {
+    "message": "管理员"
+  },
+  "pages.users.filters.deactivated": {
+    "message": "已停用的用户"
+  },
+  "pages.users.filters.guests": {
+    "message": "访客（旧版）"
+  },
+  "pages.users.filters.locked": {
+    "message": "已锁定的用户"
+  },
+  "pages.users.filters.newest_first": {
+    "message": "最新的优先"
+  },
+  "pages.users.filters.non_guests": {
+    "message": "非访客（旧版）"
+  },
+  "pages.users.lock_account.alert.description": {
+    "message": "此用户将自动在其登录的所有设备中锁定，并且在解锁前无法登录到任何新设备。"
+  },
+  "pages.users.lock_account.alert.title": {
+    "message": "用户将无法发送或接收消息"
+  },
+  "pages.users.lock_account.button": {
+    "message": "锁定账户"
+  },
+  "pages.users.lock_account.error": {
+    "message": "锁定账户失败"
+  },
+  "pages.users.lock_account.success": {
+    "message": "账户已锁定"
+  },
+  "pages.users.lock_account.title": {
+    "message": "锁定此用户的账户？"
+  },
+  "pages.users.new_user.add_user": {
+    "message": "添加用户"
+  },
+  "pages.users.new_user.create_account": {
+    "message": "创建账户"
+  },
+  "pages.users.new_user.description": {
+    "message": "为此用户指定用户名以新增用户到 {serverName}，该用户名将成为其用户 ID 的一部分。"
+  },
+  "pages.users.new_user.error_message": {
+    "message": "创建用户时出错"
+  },
+  "pages.users.new_user.invalid_localpart": {
+    "message": "Localpart 只能包含小写字母、数字与下划线"
+  },
+  "pages.users.new_user.invalid_localpart_numeric_only": {
+    "message": "Localpart 不能仅包含数字"
+  },
+  "pages.users.new_user.localpart": {
+    "message": "输入名称"
+  },
+  "pages.users.new_user.required_error": {
+    "message": "此字段为必填"
+  },
+  "pages.users.new_user.success_message": {
+    "message": "用户已创建"
+  },
+  "pages.users.not_found.description": {
+    "message": "在 {serverName} 上无法找到请求的用户（{userId}）。"
+  },
+  "pages.users.not_found.title": {
+    "message": "用户未找到"
+  },
+  "pages.users.reactivate_account.button": {
+    "message": "重新激活"
+  },
+  "pages.users.reactivate_account.error": {
+    "message": "重新激活账户失败"
+  },
+  "pages.users.reactivate_account.success": {
+    "message": "账户已重新激活"
+  },
+  "pages.users.search_placeholder": {
+    "message": "搜索用户…"
+  },
+  "pages.users.set_admin.alert.description": {
+    "message": "用户将能够查看用户数据，并修改用户和房间权限。"
+  },
+  "pages.users.set_admin.alert.title": {
+    "message": "用户将有权访问敏感数据"
+  },
+  "pages.users.set_admin.error": {
+    "message": "为 {mxid} 更改管理员权限失败"
+  },
+  "pages.users.set_admin.label": {
+    "message": "管理员"
+  },
+  "pages.users.set_admin.make_admin_button": {
+    "message": "设为管理员"
+  },
+  "pages.users.set_admin.successfully_demoted": {
+    "message": "{mxid} 已不再具有管理员权限"
+  },
+  "pages.users.set_admin.successfully_promoted": {
+    "message": "{mxid} 现在拥有管理员权限"
+  },
+  "pages.users.set_admin.title": {
+    "message": "将此用户设为管理员？"
+  },
+  "pages.users.set_password.button": {
+    "message": "更改密码"
+  },
+  "pages.users.set_password.confirm_password_label": {
+    "message": "再次输入密码"
+  },
+  "pages.users.set_password.error": {
+    "message": "密码设置失败"
+  },
+  "pages.users.set_password.error.password_missing": {
+    "message": "此字段为必填"
+  },
+  "pages.users.set_password.error.passwords_mismatch": {
+    "message": "密码不匹配"
+  },
+  "pages.users.set_password.password_label": {
+    "message": "密码"
+  },
+  "pages.users.set_password.password_match": {
+    "message": "密码匹配！"
+  },
+  "pages.users.set_password.submit": {
+    "message": "设置新密码"
+  },
+  "pages.users.set_password.success": {
+    "message": "密码设置成功"
+  },
+  "pages.users.set_password.title": {
+    "message": "为此用户设置新密码"
+  },
+  "pages.users.title": {
+    "message": "用户"
+  },
+  "pages.users.unlock_account.button": {
+    "message": "解锁账户"
+  },
+  "pages.users.unlock_account.error": {
+    "message": "解锁账户失败"
+  },
+  "pages.users.unlock_account.success": {
+    "message": "账户已解锁"
+  },
+  "pages.users.user_count": {
+    "message": "{COUNT, plural, zero {没有用户} one {# 个用户} other {# 个用户}}"
+  },
+  "product.element": {
+    "message": "Element"
+  },
+  "product.title": {
+    "message": "幕屋后台管理系统"
+  },
+  "product.title.community": {
+    "message": "Element Community"
+  },
+  "product.title.pro": {
+    "message": "Element Pro"
+  },
+  "product.title.ti-m": {
+    "message": "Element TI-Messenger"
+  },
+  "room_info.empty_room": {
+    "message": "空房间"
+  },
+  "room_info.empty_space": {
+    "message": "空闲空间"
+  },
+  "room_info.room_with": {
+    "message": "{members} 位成员的房间"
+  },
+  "room_info.space_with": {
+    "message": "{members} 位成员的空间"
+  },
+  "room_info.unknown_user": {
+    "message": "未知用户"
+  },
+  "rooms_info.other_members": {
+    "message": "{COUNT, plural, other {其他}}"
+  },
+  "ui.data.failed_to_load": {
+    "message": "载入失败"
+  },
+  "ui.data.loading": {
+    "message": "正在载入值"
+  },
+  "ui.language_switcher.browser_default": {
+    "message": "跟随浏览器设置（{language}）"
+  },
+  "ui.language_switcher.button_label": {
+    "message": "语言设置"
+  },
+  "ui.language_switcher.description": {
+    "message": "为界面更改你偏好的语言。"
+  },
+  "ui.language_switcher.language_list_label": {
+    "message": "可用语言列表"
+  },
+  "ui.language_switcher.title": {
+    "message": "语言设置"
+  },
+  "ui.user_picker.loading_list": {
+    "message": "加载中…"
+  },
+  "ui.user_picker.no_match": {
+    "message": "无匹配"
+  },
+  "ui.user_picker.no_match_help": {
+    "message": "请尝试其他搜索词。此功能只能使用 localpart 在 {serverName} 上查找活跃用户。"
+  }
+}

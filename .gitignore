@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.wrangler/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

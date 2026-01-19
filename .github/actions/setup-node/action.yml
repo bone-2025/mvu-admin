@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
+#
+# SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+
+name: Install Node dependencies
+description: Installs Node.js and the pnpm dependencies
+
+runs:
+  using: composite
+  steps:
+    - name: Install pnpm
+      uses: pnpm/action-setup@v4.1.0
+
+    - name: Install Node.js
+      uses: actions/setup-node@v5.0.0
+
+    - name: Install dependencies
+      run: pnpm install
+      shell: sh

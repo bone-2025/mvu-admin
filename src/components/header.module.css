@@ -1,0 +1,102 @@
+/*
+ * SPDX-FileCopyrightText: Copyright 2025 New Vector Ltd.
+ *
+ * SPDX-License-Identifier: AGPL-3.0-only OR LicenseRef-Element-Commercial
+ */
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--cpd-space-4x) var(--cpd-space-5x);
+  border-block-end: solid 1px var(--cpd-color-bg-subtle-secondary);
+  background-color: var(--cpd-color-bg-canvas-default);
+
+  /** This is to position the header above the content, sticky at the top */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: var(--cpd-space-10x);
+}
+
+.homeserver-name {
+  font: var(--cpd-font-body-lg-semibold);
+  letter-spacing: var(--cpd-font-letter-spacing-body-lg);
+  color: var(--cpd-color-text-secondary);
+}
+
+.user-menu-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--cpd-space-4x);
+  padding-block: var(--cpd-space-8x) var(--cpd-space-6x);
+  min-width: 288px;
+
+  & .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--cpd-space-1x);
+
+    & .display-name {
+      font: var(--cpd-font-body-lg-semibold);
+      letter-spacing: var(--cpd-font-letter-spacing-body-lg);
+      color: var(--cpd-color-text-primary);
+    }
+
+    & .mxid {
+      font: var(--cpd-font-body-sm-regular);
+      letter-spacing: var(--cpd-font-letter-spacing-body-sm);
+      color: var(--cpd-color-text-primary);
+    }
+  }
+}
+
+.user-menu-button {
+  display: flex;
+  align-items: center;
+  gap: var(--cpd-space-1x);
+  padding-inline-end: var(--cpd-space-2x);
+  border-radius: var(--cpd-radius-pill-effect);
+
+  & .icon {
+    color: var(--cpd-color-icon-primary);
+    transition: transform var(--default-transition-duration)
+      var(--default-transition-timing-function);
+  }
+
+  &:hover {
+    background-color: var(--cpd-color-bg-subtle-secondary);
+  }
+
+  &[data-state="open"] {
+    background-color: var(--cpd-color-bg-subtle-primary);
+
+    & .icon {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+@media screen and (width <= 768px) {
+  .homeserver-name {
+    display: none;
+  }
+
+  /* FIXME: maybe we should be more intelligent and detect whether it's going to
+     be a modal or not instead of using breakpoints? */
+  .user-menu-button {
+    padding-inline-end: 0;
+
+    & .icon {
+      display: none;
+    }
+  }
+}

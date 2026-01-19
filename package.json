@@ -1,0 +1,132 @@
+{
+  "name": "element-admin",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/element-hq/element-admin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/element-hq/element-admin/issues"
+  },
+  "license": "SEE LICENSE IN README.md",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "start": "vite --port 3000",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint --max-warnings 0 . && stylelint 'src/**/*.css' && prettier --check . && tsc",
+    "fix": "eslint --fix . && stylelint --fix 'src/**/*.css' && prettier --write .",
+    "i18n:extract": "formatjs extract --throws --format crowdin 'src/**/*.{ts,tsx}' --out-file translations/extracted/en.json && prettier --write translations/extracted/en.json",
+    "i18n:download": "localazy download && prettier --write translations/translated/",
+    "i18n:compile": "formatjs compile-folder --format crowdin --ast translations/translated/ translations/compiled/ && prettier --write translations/compiled",
+    "openapi-ts": "openapi-ts",
+    "prepare": "husky",
+    "browserslist": "browserslist",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@floating-ui/react": "0.27.16",
+    "@fontsource/inconsolata": "5.2.8",
+    "@fontsource/inter": "5.2.8",
+    "@formatjs/intl-localematcher": "0.6.2",
+    "@js-temporal/polyfill": "0.5.1",
+    "@radix-ui/react-dialog": "1.1.15",
+    "@tanstack/query-persist-client-core": "5.91.11",
+    "@tanstack/react-pacer": "0.17.4",
+    "@tanstack/react-query": "5.90.12",
+    "@tanstack/react-router": "1.140.1",
+    "@tanstack/react-table": "8.21.3",
+    "@tanstack/react-virtual": "3.13.13",
+    "@vector-im/compound-design-tokens": "6.4.2",
+    "@vector-im/compound-web": "8.3.1",
+    "classnames": "2.5.1",
+    "idb-keyval": "6.2.2",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "react-error-boundary": "6.0.0",
+    "react-hot-toast": "2.6.0",
+    "react-intl": "7.1.14",
+    "semver": "7.7.3",
+    "use-broadcast-ts": "2.0.1",
+    "valibot": "1.2.0",
+    "vaul": "1.1.2",
+    "zustand": "5.0.9"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.11.0",
+    "@eslint/js": "9.39.1",
+    "@formatjs/cli": "6.7.4",
+    "@hey-api/openapi-ts": "0.88.2",
+    "@localazy/cli": "2.0.8",
+    "@playwright/test": "1.57.0",
+    "@tailwindcss/vite": "4.1.17",
+    "@tanstack/devtools-vite": "0.3.12",
+    "@tanstack/eslint-plugin-query": "5.91.2",
+    "@tanstack/eslint-plugin-router": "1.140.0",
+    "@tanstack/react-devtools": "0.8.4",
+    "@tanstack/react-pacer-devtools": "0.4.1",
+    "@tanstack/react-query-devtools": "5.91.1",
+    "@tanstack/react-router-devtools": "1.140.1",
+    "@tanstack/router-plugin": "1.140.1",
+    "@tsconfig/strictest": "2.0.8",
+    "@tsconfig/vite-react": "7.0.2",
+    "@types/node": "24.10.2",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@types/semver": "7.7.1",
+    "@vitejs/plugin-react": "5.1.2",
+    "babel-plugin-formatjs": "10.5.41",
+    "babel-plugin-react-compiler": "19.1.0-rc.3",
+    "browserslist": "4.28.1",
+    "browserslist-to-esbuild": "2.1.1",
+    "eslint": "9.39.1",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-import-resolver-typescript": "4.4.4",
+    "eslint-plugin-compat": "6.0.2",
+    "eslint-plugin-formatjs": "5.4.2",
+    "eslint-plugin-import-x": "4.16.1",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "7.0.1",
+    "eslint-plugin-react-refresh": "0.4.24",
+    "eslint-plugin-unicorn": "62.0.0",
+    "husky": "9.1.7",
+    "knip": "5.73.1",
+    "lint-staged": "16.2.7",
+    "prettier": "3.7.4",
+    "stylelint": "16.26.1",
+    "stylelint-config-standard": "39.0.1",
+    "stylelint-config-tailwindcss": "1.0.0",
+    "tailwindcss": "4.1.17",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.49.0",
+    "vite": "7.2.7",
+    "vite-tsconfig-paths": "5.1.4"
+  },
+  "lint-staged": {
+    "*": [
+      "prettier --write --ignore-unknown"
+    ],
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix --max-warnings 0"
+    ],
+    "*.css": [
+      "stylelint --fix"
+    ]
+  },
+  "knip": {
+    "entry": [
+      "src/base.css",
+      "src/main.tsx",
+      "src/prerender.tsx"
+    ],
+    "ignore": [
+      "src/routeTree.gen.ts",
+      "src/api/mas/api/**/*",
+      "src/api/synapse.ts",
+      "openapi-ts.config.ts"
+    ]
+  },
+  "packageManager": "pnpm@10.25.0+sha512.5e82639027af37cf832061bcc6d639c219634488e0f2baebe785028a793de7b525ffcd3f7ff574f5e9860654e098fe852ba8ac5dd5cefe1767d23a020a92f501"
+}

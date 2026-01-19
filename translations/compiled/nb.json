@@ -1,0 +1,2474 @@
+{
+  "action.add": [
+    {
+      "type": 0,
+      "value": "Legg til"
+    }
+  ],
+  "action.cancel": [
+    {
+      "type": 0,
+      "value": "Avbryt"
+    }
+  ],
+  "action.clear": [
+    {
+      "type": 0,
+      "value": "Tøm"
+    }
+  ],
+  "action.close": [
+    {
+      "type": 0,
+      "value": "Lukk"
+    }
+  ],
+  "action.copy": [
+    {
+      "type": 0,
+      "value": "Copy"
+    }
+  ],
+  "action.delete": [
+    {
+      "type": 0,
+      "value": "Delete"
+    }
+  ],
+  "action.go_back": [
+    {
+      "type": 0,
+      "value": "Gå tilbake"
+    }
+  ],
+  "action.remove": [
+    {
+      "type": 0,
+      "value": "Fjern"
+    }
+  ],
+  "action.retry": [
+    {
+      "type": 0,
+      "value": "Prøv på nytt"
+    }
+  ],
+  "action.sign_in": [
+    {
+      "type": 0,
+      "value": "Sign in"
+    }
+  ],
+  "action.sign_out": [
+    {
+      "type": 0,
+      "value": "Logg ut"
+    }
+  ],
+  "common.email_address": [
+    {
+      "type": 0,
+      "value": "E-postadresse"
+    }
+  ],
+  "common.filter": [
+    {
+      "type": 0,
+      "value": "Filtre"
+    }
+  ],
+  "errors.http_fetch": [
+    {
+      "type": 0,
+      "value": "Forespørsel til "
+    },
+    {
+      "type": 1,
+      "value": "url"
+    },
+    {
+      "type": 0,
+      "value": " mislyktes"
+    }
+  ],
+  "errors.http_fetch_json_decoding": [
+    {
+      "type": 0,
+      "value": "Kunne ikke dekode JSON-svaret fra "
+    },
+    {
+      "type": 1,
+      "value": "url"
+    }
+  ],
+  "errors.http_status": [
+    {
+      "type": 0,
+      "value": "Forespørsel til "
+    },
+    {
+      "type": 1,
+      "value": "url"
+    },
+    {
+      "type": 0,
+      "value": " mislyktes med statuskode "
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "statusText"
+    }
+  ],
+  "errors.matrix_standard": [
+    {
+      "type": 0,
+      "value": "Forespørsel til homeserveren mislyktes med feilkode {errorCode}. I tillegg ga serveren følgende feilmelding: "
+    },
+    {
+      "type": 1,
+      "value": "errorMessage"
+    }
+  ],
+  "errors.not_logged_in": [
+    {
+      "type": 0,
+      "value": "Ikke pålogget"
+    }
+  ],
+  "footer.copyright_notice": [
+    {
+      "type": 0,
+      "value": "Copyright © "
+    },
+    {
+      "style": {
+        "parsedOptions": {
+          "year": "numeric"
+        },
+        "pattern": "yyyy",
+        "type": 1
+      },
+      "type": 3,
+      "value": "now"
+    }
+  ],
+  "footer.help_and_support": [
+    {
+      "type": 0,
+      "value": "Hjelp og støtte"
+    }
+  ],
+  "footer.legal": [
+    {
+      "type": 0,
+      "value": "Juridisk"
+    }
+  ],
+  "footer.privacy": [
+    {
+      "type": 0,
+      "value": "Personvern"
+    }
+  ],
+  "header.user_menu.title": [
+    {
+      "type": 0,
+      "value": "Konto-meny"
+    }
+  ],
+  "marketing.also_available_in_pro.description": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "ESS Pro"
+            }
+          ],
+          "type": 8,
+          "value": "link"
+        },
+        {
+          "type": 0,
+          "value": " is the commercial backend distribution from Element."
+        }
+      ],
+      "type": 8,
+      "value": "p"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "It includes everything in ESS Community plus additional features and services that are tailored to professional environments with more than 100 users up to massive scale in the millions."
+        }
+      ],
+      "type": 8,
+      "value": "p"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "It is designed to support enterprise requirements in terms of advanced IAM, compliance, scalability, high availability and multi-tenancy."
+        }
+      ],
+      "type": 8,
+      "value": "p"
+    }
+  ],
+  "marketing.also_available_in_pro.title": [
+    {
+      "type": 0,
+      "value": "Also available in Pro…"
+    }
+  ],
+  "marketing.also_available_in_pro.upgrade": [
+    {
+      "type": 0,
+      "value": "Upgrade to Pro"
+    }
+  ],
+  "marketing.auditing.description": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Auditing gives organizations the ability to keep records of end-to-end encrypted conversations and room events to meet compliance or legal requirements."
+        }
+      ],
+      "type": 8,
+      "value": "p"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "When enabled, it is visible to all end users which rooms are being recorded to ensure transparency of the auditing process."
+        }
+      ],
+      "type": 8,
+      "value": "p"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Auditing can be configured to suit an organization’s specific requirements. For instance direct messages between two individuals can be excluded so that only group conversations are recorded."
+        }
+      ],
+      "type": 8,
+      "value": "p"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Audit data is being stored as a stream of machine-readable events in the JSON format either on file storage or S3 and can be forwarded to log analyzer tooling for further filtering and analysis."
+        }
+      ],
+      "type": 8,
+      "value": "p"
+    }
+  ],
+  "marketing.auditing.title": [
+    {
+      "type": 0,
+      "value": "Auditing"
+    }
+  ],
+  "marketing.moderation.description": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Moderation enables an organisation to administer all rooms from a central point. A ‘moderator’ account will join defined rooms with room admin privileges. Server administrators can seamlessly impersonate the account from the admin console to manage and moderate their rooms."
+        }
+      ],
+      "type": 8,
+      "value": "p"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Manage rooms and their settings (name, topic, permissions, etc.)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Manage room memberships"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Remove unwanted messages and uploaded media"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Recover abandoned rooms (all users have left)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Moderator account can or cannot read encrypted message contents (configurable)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "marketing.moderation.title": [
+    {
+      "type": 0,
+      "value": "Moderation"
+    }
+  ],
+  "navigation.auditing": [
+    {
+      "type": 0,
+      "value": "Auditing"
+    }
+  ],
+  "navigation.dashboard": [
+    {
+      "type": 0,
+      "value": "Dashbord"
+    }
+  ],
+  "navigation.documentation": [
+    {
+      "type": 0,
+      "value": "Dokumentasjon"
+    }
+  ],
+  "navigation.moderation": [
+    {
+      "type": 0,
+      "value": "Moderation"
+    }
+  ],
+  "navigation.personal_tokens": [
+    {
+      "type": 0,
+      "value": "Personlige tokens"
+    }
+  ],
+  "navigation.registration_tokens": [
+    {
+      "type": 0,
+      "value": "Registreringstokener"
+    }
+  ],
+  "navigation.rooms": [
+    {
+      "type": 0,
+      "value": "Rom"
+    }
+  ],
+  "navigation.users": [
+    {
+      "type": 0,
+      "value": "Brukere"
+    }
+  ],
+  "pages.auditing.title": [
+    {
+      "type": 0,
+      "value": "Auditing"
+    }
+  ],
+  "pages.auditing.unavailable_alert.description": [
+    {
+      "type": 0,
+      "value": "This feature is not available in ESS Community. Upgrade to ESS Pro to enable it."
+    }
+  ],
+  "pages.auditing.unavailable_alert.title": [
+    {
+      "type": 0,
+      "value": "Auditing is a feature available in ESS Pro"
+    }
+  ],
+  "pages.dashboard.current_ess_version": [
+    {
+      "type": 0,
+      "value": "ESS-versjon"
+    }
+  ],
+  "pages.dashboard.latest_ess_version": [
+    {
+      "type": 0,
+      "value": "Siste ESS-versjon"
+    }
+  ],
+  "pages.dashboard.new_ess_release": [
+    {
+      "type": 0,
+      "value": "(Ny versjon)"
+    }
+  ],
+  "pages.dashboard.registered_users_count": [
+    {
+      "type": 0,
+      "value": "Brukere registrert"
+    }
+  ],
+  "pages.dashboard.rooms_count": [
+    {
+      "type": 0,
+      "value": "Totalt antall rom"
+    }
+  ],
+  "pages.dashboard.running_latest_ess": [
+    {
+      "type": 0,
+      "value": "(Du kjører den nyeste versjonen)"
+    }
+  ],
+  "pages.dashboard.synapse_version": [
+    {
+      "type": 0,
+      "value": "Synapse-versjon"
+    }
+  ],
+  "pages.dashboard.title": [
+    {
+      "type": 0,
+      "value": "Dashbord"
+    }
+  ],
+  "pages.generic_error.go_home": [
+    {
+      "type": 0,
+      "value": "Gå hjem"
+    }
+  ],
+  "pages.generic_error.sign_out_and_reload": [
+    {
+      "type": 0,
+      "value": "Logg ut og last inn på nytt"
+    }
+  ],
+  "pages.generic_error.technical_details.item": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": ":"
+    },
+    {
+      "type": 1,
+      "value": "message"
+    }
+  ],
+  "pages.generic_error.text": [
+    {
+      "type": 0,
+      "value": "Dette kan være et resultat av en feil eller at det ikke lykkes å nå hjemmeserveren. Du kan prøve å laste inn siden på nytt, gå tilbake til forrige side eller tilbakestille alt og gå tilbake til hjemmesiden."
+    }
+  ],
+  "pages.generic_error.title": [
+    {
+      "type": 0,
+      "value": "Det oppsto en uventet feil"
+    }
+  ],
+  "pages.landing.description": [
+    {
+      "type": 0,
+      "value": "Administrer utrullingen av Element-appen for organisasjonen eller fellesskapet ditt."
+    }
+  ],
+  "pages.login.errors.no_auth_metadata": [
+    {
+      "type": 0,
+      "value": "Kunne ikke laste inn serverens autentiseringsmetadata. Synapse kan være utilgjengelig eller ikke konfigurert til å bruke Matrix Authentication Service."
+    }
+  ],
+  "pages.login.errors.no_client_metadata": [
+    {
+      "type": 0,
+      "value": "Kunne ikke registrere klienten. Matrix Authentication Service kan være utilgjengelig eller feilkonfigurert."
+    }
+  ],
+  "pages.login.errors.no_well_known": [
+    {
+      "type": 0,
+      "value": "Kunne ikke laste inn serverens \"well-known\" dokument. Servernavnet kan være ugyldig."
+    }
+  ],
+  "pages.login.get_started": [
+    {
+      "type": 0,
+      "value": "Kom i gang"
+    }
+  ],
+  "pages.login.server_name": [
+    {
+      "type": 0,
+      "value": "Navn på server"
+    }
+  ],
+  "pages.login.title": [
+    {
+      "type": 0,
+      "value": "Logg inn"
+    }
+  ],
+  "pages.moderation.description": [
+    {
+      "type": 0,
+      "value": "Sign in as "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "mxid"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " to perform administrative actions in any room."
+    }
+  ],
+  "pages.moderation.disabled_alert.description": [
+    {
+      "type": 0,
+      "value": "This feature is part of your subscription. You can ask an administrator to enable it."
+    }
+  ],
+  "pages.moderation.disabled_alert.title": [
+    {
+      "type": 0,
+      "value": "Moderation is currently disabled"
+    }
+  ],
+  "pages.moderation.errors.cant_open.description": [
+    {
+      "type": 0,
+      "value": "Your browser is blocking the opening of pop-up windows. Please make sure you allow pop-ups from this site."
+    }
+  ],
+  "pages.moderation.errors.cant_open.title": [
+    {
+      "type": 0,
+      "value": "Failed to open the moderation interface in a new window"
+    }
+  ],
+  "pages.moderation.errors.closed.description": [
+    {
+      "type": 0,
+      "value": "Failed to sign in the moderation interface, as it closed before it could finish signing in"
+    }
+  ],
+  "pages.moderation.errors.closed.title": [
+    {
+      "type": 0,
+      "value": "The moderation interface was closed too quickly"
+    }
+  ],
+  "pages.moderation.errors.generic.title": [
+    {
+      "type": 0,
+      "value": "An unexpected error occurred whilst opening the moderation interface"
+    }
+  ],
+  "pages.moderation.missing_ui_address.description": [
+    {
+      "type": 0,
+      "value": "Moderation is enabled in your deployment, but not Element Web, which is required for the moderation interface to work."
+    }
+  ],
+  "pages.moderation.missing_ui_address.title": [
+    {
+      "type": 0,
+      "value": "The moderation interface requires Element Web to be enabled"
+    }
+  ],
+  "pages.moderation.recovery_key.copied": [
+    {
+      "type": 0,
+      "value": "Recovery key copied"
+    }
+  ],
+  "pages.moderation.recovery_key.copy_failed": [
+    {
+      "type": 0,
+      "value": "Could not copy recovery key"
+    }
+  ],
+  "pages.moderation.recovery_key.help": [
+    {
+      "type": 0,
+      "value": "This is the recovery key used to enable reading encrypted messages."
+    }
+  ],
+  "pages.moderation.recovery_key.label": [
+    {
+      "type": 0,
+      "value": "Recovery key"
+    }
+  ],
+  "pages.moderation.title": [
+    {
+      "type": 0,
+      "value": "Moderation"
+    }
+  ],
+  "pages.moderation.unavailable_alert.description": [
+    {
+      "type": 0,
+      "value": "This feature is not available in ESS Community. Upgrade to ESS Pro to enable it."
+    }
+  ],
+  "pages.moderation.unavailable_alert.title": [
+    {
+      "type": 0,
+      "value": "Moderation is a feature available in ESS Pro"
+    }
+  ],
+  "pages.personal_tokens.acting_user_column": [
+    {
+      "type": 0,
+      "value": "Acting User"
+    }
+  ],
+  "pages.personal_tokens.acting_user_label": [
+    {
+      "type": 0,
+      "value": "Acting user"
+    }
+  ],
+  "pages.personal_tokens.actor_user_help": [
+    {
+      "type": 0,
+      "value": "Brukeren dette tokenet vil handle på vegne av"
+    }
+  ],
+  "pages.personal_tokens.actor_user_label": [
+    {
+      "type": 0,
+      "value": "Acting user"
+    }
+  ],
+  "pages.personal_tokens.add_token_title": [
+    {
+      "type": 0,
+      "value": "Legg til personlig token"
+    }
+  ],
+  "pages.personal_tokens.cant_regenerate_tooltip": [
+    {
+      "type": 0,
+      "value": "Bare "
+    },
+    {
+      "type": 1,
+      "value": "ownerMxid"
+    },
+    {
+      "type": 0,
+      "value": " kan regenerere dette tokenet"
+    }
+  ],
+  "pages.personal_tokens.cant_regenerate_tooltip_generic": [
+    {
+      "type": 0,
+      "value": "Bare eieren av tokenet kan generere det på nytt"
+    }
+  ],
+  "pages.personal_tokens.count": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "No personal tokens"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " personal token"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " personal tokens"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "pages.personal_tokens.create_error": [
+    {
+      "type": 0,
+      "value": "Kunne ikke opprette personlig token"
+    }
+  ],
+  "pages.personal_tokens.create_success": [
+    {
+      "type": 0,
+      "value": "Personlig token opprettet"
+    }
+  ],
+  "pages.personal_tokens.create_token": [
+    {
+      "type": 0,
+      "value": "Opprett token"
+    }
+  ],
+  "pages.personal_tokens.created_at_label": [
+    {
+      "type": 0,
+      "value": "Created at"
+    }
+  ],
+  "pages.personal_tokens.description": [
+    {
+      "type": 0,
+      "value": "Personlige tokener er tilgangstokener med lang levetid og spesifikk tilgang, inkludert Synapse- og MAS-administrasjons-API-tilgang. De er nyttige for å automatisere oppgaver og for å lage integrasjoner."
+    }
+  ],
+  "pages.personal_tokens.device_id_help": [
+    {
+      "type": 0,
+      "value": "La feltet stå tomt for å generere en tilfeldig enhets-ID på 10 tegn"
+    }
+  ],
+  "pages.personal_tokens.device_id_label": [
+    {
+      "type": 0,
+      "value": "Enhets-ID"
+    }
+  ],
+  "pages.personal_tokens.device_id_placeholder": [
+    {
+      "type": 0,
+      "value": "ABCDEFGHIJ"
+    }
+  ],
+  "pages.personal_tokens.expires_at_column": [
+    {
+      "type": 0,
+      "value": "Expires at"
+    }
+  ],
+  "pages.personal_tokens.expires_at_label": [
+    {
+      "type": 0,
+      "value": "Expires at"
+    }
+  ],
+  "pages.personal_tokens.expires_in_help": [
+    {
+      "type": 0,
+      "value": "La feltet stå tomt for tokens som aldri utløper"
+    }
+  ],
+  "pages.personal_tokens.expires_in_label": [
+    {
+      "type": 0,
+      "value": "Utløper om (dager)"
+    }
+  ],
+  "pages.personal_tokens.expires_in_placeholder": [
+    {
+      "type": 0,
+      "value": "30"
+    }
+  ],
+  "pages.personal_tokens.filter.active": [
+    {
+      "type": 0,
+      "value": "Aktiv"
+    }
+  ],
+  "pages.personal_tokens.filter.expires": [
+    {
+      "type": 0,
+      "value": "Med en utløpsdato"
+    }
+  ],
+  "pages.personal_tokens.filter.no_expiry": [
+    {
+      "type": 0,
+      "value": "Utløper aldri"
+    }
+  ],
+  "pages.personal_tokens.filter.revoked": [
+    {
+      "type": 0,
+      "value": "Tilbakekalt"
+    }
+  ],
+  "pages.personal_tokens.filter.scope_mas_admin": [
+    {
+      "type": 0,
+      "value": "Tilgang til MAS admin APIet"
+    }
+  ],
+  "pages.personal_tokens.filter.scope_matrix_client": [
+    {
+      "type": 0,
+      "value": "Tilgang til Matrix Client-Server APIet"
+    }
+  ],
+  "pages.personal_tokens.filter.scope_synapse_admin": [
+    {
+      "type": 0,
+      "value": "Tilgang til Synapse admin APIet"
+    }
+  ],
+  "pages.personal_tokens.last_active_column": [
+    {
+      "type": 0,
+      "value": "Sist aktiv"
+    }
+  ],
+  "pages.personal_tokens.last_active_ip_label": [
+    {
+      "type": 0,
+      "value": "Siste aktive IP-adresse"
+    }
+  ],
+  "pages.personal_tokens.last_active_label": [
+    {
+      "type": 0,
+      "value": "Sist aktiv"
+    }
+  ],
+  "pages.personal_tokens.loading_more": [
+    {
+      "type": 0,
+      "value": "Laster inn flere tokens..."
+    }
+  ],
+  "pages.personal_tokens.name_column": [
+    {
+      "type": 0,
+      "value": "Navn"
+    }
+  ],
+  "pages.personal_tokens.name_help": [
+    {
+      "type": 0,
+      "value": "Et menneskelig lesbart navn for tokenet, for å hjelpe deg med å identifisere det"
+    }
+  ],
+  "pages.personal_tokens.name_label": [
+    {
+      "type": 0,
+      "value": "Navn på token"
+    }
+  ],
+  "pages.personal_tokens.name_placeholder": [
+    {
+      "type": 0,
+      "value": "Mitt applikasjonstoken"
+    }
+  ],
+  "pages.personal_tokens.never_expires": [
+    {
+      "type": 0,
+      "value": "Utløper aldri"
+    }
+  ],
+  "pages.personal_tokens.never_used": [
+    {
+      "type": 0,
+      "value": "Aldri brukt"
+    }
+  ],
+  "pages.personal_tokens.not_found.description": [
+    {
+      "type": 0,
+      "value": "The personal token you're looking for doesn't exist or has been removed."
+    }
+  ],
+  "pages.personal_tokens.not_found.title": [
+    {
+      "type": 0,
+      "value": "Personal token not found"
+    }
+  ],
+  "pages.personal_tokens.owner_user_label": [
+    {
+      "type": 0,
+      "value": "Owner"
+    }
+  ],
+  "pages.personal_tokens.regenerate_confirm": [
+    {
+      "type": 0,
+      "value": "Regenerate token"
+    }
+  ],
+  "pages.personal_tokens.regenerate_error": [
+    {
+      "type": 0,
+      "value": "Failed to regenerate personal token"
+    }
+  ],
+  "pages.personal_tokens.regenerate_expires_help": [
+    {
+      "type": 0,
+      "value": "Leave empty to keep the same expiry as before, or set a new expiry time"
+    }
+  ],
+  "pages.personal_tokens.regenerate_success": [
+    {
+      "type": 0,
+      "value": "Personal token regenerated successfully"
+    }
+  ],
+  "pages.personal_tokens.regenerate_token": [
+    {
+      "type": 0,
+      "value": "Regenerate token"
+    }
+  ],
+  "pages.personal_tokens.regenerate_token_title": [
+    {
+      "type": 0,
+      "value": "Regenerate personal token"
+    }
+  ],
+  "pages.personal_tokens.regenerate_warning": [
+    {
+      "type": 0,
+      "value": "This will generate a new access token and invalidate the current one. Any applications using the current token will need to be updated."
+    }
+  ],
+  "pages.personal_tokens.revoke_success": [
+    {
+      "type": 0,
+      "value": "Personal token revoked successfully"
+    }
+  ],
+  "pages.personal_tokens.revoke_token": [
+    {
+      "type": 0,
+      "value": "Revoke token"
+    }
+  ],
+  "pages.personal_tokens.revoked_at_label": [
+    {
+      "type": 0,
+      "value": "Revoked at"
+    }
+  ],
+  "pages.personal_tokens.scope_device_help": [
+    {
+      "type": 0,
+      "value": "Provision a Matrix device"
+    }
+  ],
+  "pages.personal_tokens.scope_mas_admin_help": [
+    {
+      "type": 0,
+      "value": "Access to the MAS admin API"
+    }
+  ],
+  "pages.personal_tokens.scope_matrix_client_help": [
+    {
+      "type": 0,
+      "value": "Access to the Matrix Client-Server API"
+    }
+  ],
+  "pages.personal_tokens.scope_synapse_admin_help": [
+    {
+      "type": 0,
+      "value": "Access to the Synapse admin API"
+    }
+  ],
+  "pages.personal_tokens.scopes_label": [
+    {
+      "type": 0,
+      "value": "Scopes"
+    }
+  ],
+  "pages.personal_tokens.status.active": [
+    {
+      "type": 0,
+      "value": "Active"
+    }
+  ],
+  "pages.personal_tokens.status.column": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "pages.personal_tokens.status.expired": [
+    {
+      "type": 0,
+      "value": "Expired"
+    }
+  ],
+  "pages.personal_tokens.status.label": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "pages.personal_tokens.status.revoked": [
+    {
+      "type": 0,
+      "value": "Revoked"
+    }
+  ],
+  "pages.personal_tokens.title": [
+    {
+      "type": 0,
+      "value": "Personal tokens"
+    }
+  ],
+  "pages.personal_tokens.token_created_description": [
+    {
+      "type": 0,
+      "value": "Your personal token has been created. Copy it now as it will not be shown again."
+    }
+  ],
+  "pages.personal_tokens.token_created_title": [
+    {
+      "type": 0,
+      "value": "Personal token created"
+    }
+  ],
+  "pages.personal_tokens.token_regenerated_description": [
+    {
+      "type": 0,
+      "value": "Your personal token has been regenerated. Copy it now as it will not be shown again."
+    }
+  ],
+  "pages.personal_tokens.token_regenerated_title": [
+    {
+      "type": 0,
+      "value": "Token regenerated"
+    }
+  ],
+  "pages.registration_tokens.auto_generate_placeholder": [
+    {
+      "type": 0,
+      "value": "Generer automatisk hvis feltet står tomt"
+    }
+  ],
+  "pages.registration_tokens.create_token.error": [
+    {
+      "type": 0,
+      "value": "Kunne ikke opprette token"
+    }
+  ],
+  "pages.registration_tokens.create_token.submit": [
+    {
+      "type": 0,
+      "value": "Opprett token"
+    }
+  ],
+  "pages.registration_tokens.create_token.success": [
+    {
+      "type": 0,
+      "value": "Token opprettet"
+    }
+  ],
+  "pages.registration_tokens.create_token.title": [
+    {
+      "type": 0,
+      "value": "Opprett registreringstoken"
+    }
+  ],
+  "pages.registration_tokens.created_at_column": [
+    {
+      "type": 0,
+      "value": "Opprettet kl."
+    }
+  ],
+  "pages.registration_tokens.created_at_label": [
+    {
+      "type": 0,
+      "value": "Opprettet kl."
+    }
+  ],
+  "pages.registration_tokens.custom_token_help": [
+    {
+      "type": 0,
+      "value": "Valgfri tilpasset tokenstreng. Hvis feltet er tomt, genereres det automatisk et sikkert token."
+    }
+  ],
+  "pages.registration_tokens.custom_token_label": [
+    {
+      "type": 0,
+      "value": "Egendefinert token"
+    }
+  ],
+  "pages.registration_tokens.edit_properties": [
+    {
+      "type": 0,
+      "value": "Rediger egenskaper"
+    }
+  ],
+  "pages.registration_tokens.edit_token_title": [
+    {
+      "type": 0,
+      "value": "Rediger registreringstoken"
+    }
+  ],
+  "pages.registration_tokens.expires_at_field": [
+    {
+      "type": 0,
+      "value": "Utløper kl."
+    }
+  ],
+  "pages.registration_tokens.expires_at_help": [
+    {
+      "type": 0,
+      "value": "Når tokenet utløper. La feltet være tomt hvis tokenet aldri skal utløpe."
+    }
+  ],
+  "pages.registration_tokens.expires_at_label": [
+    {
+      "type": 0,
+      "value": "Utløper kl."
+    }
+  ],
+  "pages.registration_tokens.filters.active_only": [
+    {
+      "type": 0,
+      "value": "Aktiv"
+    }
+  ],
+  "pages.registration_tokens.filters.expired_only": [
+    {
+      "type": 0,
+      "value": "Utløpt"
+    }
+  ],
+  "pages.registration_tokens.filters.revoked_only": [
+    {
+      "type": 0,
+      "value": "Tilbakekalt"
+    }
+  ],
+  "pages.registration_tokens.filters.unused_only": [
+    {
+      "type": 0,
+      "value": "Ubrukt"
+    }
+  ],
+  "pages.registration_tokens.filters.used_only": [
+    {
+      "type": 0,
+      "value": "Brukt"
+    }
+  ],
+  "pages.registration_tokens.loading_more": [
+    {
+      "type": 0,
+      "value": "Laster inn flere tokener..."
+    }
+  ],
+  "pages.registration_tokens.never_expires": [
+    {
+      "type": 0,
+      "value": "Utløper aldri"
+    }
+  ],
+  "pages.registration_tokens.no_expiration_placeholder": [
+    {
+      "type": 0,
+      "value": "Ingen utløpsdato"
+    }
+  ],
+  "pages.registration_tokens.not_found.description": [
+    {
+      "type": 0,
+      "value": "Det forespurte registreringstokenet ("
+    },
+    {
+      "type": 1,
+      "value": "tokenId"
+    },
+    {
+      "type": 0,
+      "value": ") ble ikke funnet på "
+    },
+    {
+      "type": 1,
+      "value": "serverName"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "pages.registration_tokens.not_found.title": [
+    {
+      "type": 0,
+      "value": "Registreringstoken ikke funnet"
+    }
+  ],
+  "pages.registration_tokens.revoke_token": [
+    {
+      "type": 0,
+      "value": "Tilbakekall token"
+    }
+  ],
+  "pages.registration_tokens.revoked_at_label": [
+    {
+      "type": 0,
+      "value": "Tilbakekalt kl."
+    }
+  ],
+  "pages.registration_tokens.save_changes": [
+    {
+      "type": 0,
+      "value": "Lagre endringer"
+    }
+  ],
+  "pages.registration_tokens.status.active": [
+    {
+      "type": 0,
+      "value": "Aktiv"
+    }
+  ],
+  "pages.registration_tokens.status.column": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "pages.registration_tokens.status.expired": [
+    {
+      "type": 0,
+      "value": "Utløpt"
+    }
+  ],
+  "pages.registration_tokens.status.invalid": [
+    {
+      "type": 0,
+      "value": "Ugyldig"
+    }
+  ],
+  "pages.registration_tokens.status.label": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "pages.registration_tokens.status.revoked": [
+    {
+      "type": 0,
+      "value": "Tilbakekalt"
+    }
+  ],
+  "pages.registration_tokens.status.used_up": [
+    {
+      "type": 0,
+      "value": "Brukt opp"
+    }
+  ],
+  "pages.registration_tokens.title": [
+    {
+      "type": 0,
+      "value": "Registreringstokener"
+    }
+  ],
+  "pages.registration_tokens.token_column": [
+    {
+      "type": 0,
+      "value": "Token"
+    }
+  ],
+  "pages.registration_tokens.token_count": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " token"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " token"
+            }
+          ]
+        },
+        "zero": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Ingen token"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "COUNT"
+    }
+  ],
+  "pages.registration_tokens.token_uses.limited": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "uses"
+    },
+    {
+      "type": 0,
+      "value": " / "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "limit"
+    }
+  ],
+  "pages.registration_tokens.token_uses.unlimited": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "uses"
+    },
+    {
+      "type": 0,
+      "value": " / ∞"
+    }
+  ],
+  "pages.registration_tokens.unlimited_placeholder": [
+    {
+      "type": 0,
+      "value": "Ubegrenset"
+    }
+  ],
+  "pages.registration_tokens.unlimited_uses_placeholder": [
+    {
+      "type": 0,
+      "value": "La feltet stå tomt for ubegrenset bruk"
+    }
+  ],
+  "pages.registration_tokens.unrevoke_token": [
+    {
+      "type": 0,
+      "value": "Opphev tilbakekalling av token"
+    }
+  ],
+  "pages.registration_tokens.usage_count_label": [
+    {
+      "type": 0,
+      "value": "Brukstall"
+    }
+  ],
+  "pages.registration_tokens.usage_limit_field": [
+    {
+      "type": 0,
+      "value": "Bruksbegrensning"
+    }
+  ],
+  "pages.registration_tokens.usage_limit_help": [
+    {
+      "type": 0,
+      "value": "Maksimalt antall ganger dette tokenet kan brukes. La feltet stå tomt for ubegrenset bruk."
+    }
+  ],
+  "pages.registration_tokens.usage_limit_label": [
+    {
+      "type": 0,
+      "value": "Bruksgrense"
+    }
+  ],
+  "pages.registration_tokens.uses_column": [
+    {
+      "type": 0,
+      "value": "Bruksområder"
+    }
+  ],
+  "pages.registration_tokens.valid_until_column": [
+    {
+      "type": 0,
+      "value": "Gyldig til"
+    }
+  ],
+  "pages.rooms.delete_room.alert.description": [
+    {
+      "type": 0,
+      "value": "This will permanently delete all messages or media uploaded to the server and remove this room from the directory. Members will lose access to their messages and the room will be removed from their room list."
+    }
+  ],
+  "pages.rooms.delete_room.alert.title": [
+    {
+      "type": 0,
+      "value": "You’re about to delete room data"
+    }
+  ],
+  "pages.rooms.delete_room.block.help": [
+    {
+      "type": 0,
+      "value": "Prevent users from rejoining the room after deletion."
+    }
+  ],
+  "pages.rooms.delete_room.block.label": [
+    {
+      "type": 0,
+      "value": "Block room"
+    }
+  ],
+  "pages.rooms.delete_room.button": [
+    {
+      "type": 0,
+      "value": "Delete permanently"
+    }
+  ],
+  "pages.rooms.delete_room.error": [
+    {
+      "type": 0,
+      "value": "Failed to schedule room deletion"
+    }
+  ],
+  "pages.rooms.delete_room.success": [
+    {
+      "type": 0,
+      "value": "Room deletion scheduled"
+    }
+  ],
+  "pages.rooms.delete_room.title": [
+    {
+      "type": 0,
+      "value": "Delete this room?"
+    }
+  ],
+  "pages.rooms.deletion.failure.description": [
+    {
+      "type": 0,
+      "value": "Room deletion task failed on "
+    },
+    {
+      "style": "short",
+      "type": 3,
+      "value": "timestamp"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "style": "short",
+      "type": 4,
+      "value": "timestamp"
+    },
+    {
+      "type": 0,
+      "value": " with error: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "pages.rooms.deletion.failure.title": [
+    {
+      "type": 0,
+      "value": "Deletion failed"
+    }
+  ],
+  "pages.rooms.deletion.in_progress.description": [
+    {
+      "type": 0,
+      "value": "Room deletion task is in progress since "
+    },
+    {
+      "style": "short",
+      "type": 3,
+      "value": "timestamp"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "style": "short",
+      "type": 4,
+      "value": "timestamp"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "pages.rooms.deletion.in_progress.title": [
+    {
+      "type": 0,
+      "value": "Deletion in progress"
+    }
+  ],
+  "pages.rooms.deletion.success.description": [
+    {
+      "type": 0,
+      "value": "Room deletion task completed successfully on "
+    },
+    {
+      "style": "short",
+      "type": 3,
+      "value": "timestamp"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "style": "short",
+      "type": 4,
+      "value": "timestamp"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "pages.rooms.deletion.success.title": [
+    {
+      "type": 0,
+      "value": "Deletion successful"
+    }
+  ],
+  "pages.rooms.filters.empty_rooms": [
+    {
+      "type": 0,
+      "value": "Tomme rom"
+    }
+  ],
+  "pages.rooms.filters.non_empty_rooms": [
+    {
+      "type": 0,
+      "value": "Ikke-tomme rom"
+    }
+  ],
+  "pages.rooms.filters.private_rooms": [
+    {
+      "type": 0,
+      "value": "Private rom"
+    }
+  ],
+  "pages.rooms.filters.public_rooms": [
+    {
+      "type": 0,
+      "value": "Offentlige rom"
+    }
+  ],
+  "pages.rooms.not_found.description": [
+    {
+      "type": 0,
+      "value": "Det forespurte rommet ("
+    },
+    {
+      "type": 1,
+      "value": "roomId"
+    },
+    {
+      "type": 0,
+      "value": " ) ble ikke funnet på "
+    },
+    {
+      "type": 1,
+      "value": "serverName"
+    },
+    {
+      "type": 0,
+      "value": " ."
+    }
+  ],
+  "pages.rooms.not_found.title": [
+    {
+      "type": 0,
+      "value": "Rom ikke funnet"
+    }
+  ],
+  "pages.rooms.room_count": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " rom"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " rom"
+            }
+          ]
+        },
+        "zero": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Ingen rom"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "COUNT"
+    }
+  ],
+  "pages.rooms.title": [
+    {
+      "type": 0,
+      "value": "Rom"
+    }
+  ],
+  "pages.users.add_email.button": [
+    {
+      "type": 0,
+      "value": "Legg til e-postadresse"
+    }
+  ],
+  "pages.users.add_email.description": [
+    {
+      "type": 0,
+      "value": "Legg til en e-postadresse til denne brukeren"
+    }
+  ],
+  "pages.users.add_email.error": [
+    {
+      "type": 0,
+      "value": "Kunne ikke legge til e-postadresse"
+    }
+  ],
+  "pages.users.add_email.error.email_invalid": [
+    {
+      "type": 0,
+      "value": "Ugyldig e-postadresse"
+    }
+  ],
+  "pages.users.add_email.error.email_missing": [
+    {
+      "type": 0,
+      "value": "Dette feltet er obligatorisk"
+    }
+  ],
+  "pages.users.add_email.success": [
+    {
+      "type": 0,
+      "value": "E-postadresse lagt til"
+    }
+  ],
+  "pages.users.add_email.title": [
+    {
+      "type": 0,
+      "value": "Legg til e-postadresse"
+    }
+  ],
+  "pages.users.add_upstream_link.error": [
+    {
+      "type": 0,
+      "value": "Feil ved tilkobling av upstream-konto"
+    }
+  ],
+  "pages.users.add_upstream_link.success": [
+    {
+      "type": 0,
+      "value": "Lenke til upstream-konto lagt til"
+    }
+  ],
+  "pages.users.deactivate_account.alert.description": [
+    {
+      "type": 0,
+      "value": "Dette vil automatisk logge brukeren ut av alle enheter, fjerne eventuelle tilgangstokener, slette alle tredjeparts-IDer og permanent slette kontodataene deres."
+    }
+  ],
+  "pages.users.deactivate_account.alert.title": [
+    {
+      "type": 0,
+      "value": "Du er i ferd med å slette brukerdata"
+    }
+  ],
+  "pages.users.deactivate_account.button": [
+    {
+      "type": 0,
+      "value": "Deaktiver konto"
+    }
+  ],
+  "pages.users.deactivate_account.error": [
+    {
+      "type": 0,
+      "value": "Kunne ikke deaktivere kontoen"
+    }
+  ],
+  "pages.users.deactivate_account.success": [
+    {
+      "type": 0,
+      "value": "Kontoen er deaktivert"
+    }
+  ],
+  "pages.users.deactivate_account.title": [
+    {
+      "type": 0,
+      "value": "Deaktivere denne brukeren?"
+    }
+  ],
+  "pages.users.delete_email.description": [
+    {
+      "type": 0,
+      "value": "Er du sikker på at du vil fjerne denne e-postadressen ("
+    },
+    {
+      "type": 1,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": " ) fra denne brukeren ("
+    },
+    {
+      "type": 1,
+      "value": "mxid"
+    },
+    {
+      "type": 0,
+      "value": " )?"
+    }
+  ],
+  "pages.users.delete_email.error": [
+    {
+      "type": 0,
+      "value": "Kunne ikke slette e-postadressen"
+    }
+  ],
+  "pages.users.delete_email.success": [
+    {
+      "type": 0,
+      "value": "E-postadressen er slettet"
+    }
+  ],
+  "pages.users.delete_email.title": [
+    {
+      "type": 0,
+      "value": "Fjerne e-postadressen?"
+    }
+  ],
+  "pages.users.delete_upstream_link.description": [
+    {
+      "type": 0,
+      "value": "Er du sikker på at du vil fjerne koblingen mellom denne brukeren ("
+    },
+    {
+      "type": 1,
+      "value": "mxid"
+    },
+    {
+      "type": 0,
+      "value": ") og denne upstream-kontoen ("
+    },
+    {
+      "type": 1,
+      "value": "subject"
+    },
+    {
+      "type": 0,
+      "value": ")?"
+    }
+  ],
+  "pages.users.delete_upstream_link.error": [
+    {
+      "type": 0,
+      "value": "Kunne ikke slette upstream-koblingen"
+    }
+  ],
+  "pages.users.delete_upstream_link.success": [
+    {
+      "type": 0,
+      "value": "Upstream-kobling slettet"
+    }
+  ],
+  "pages.users.delete_upstream_link.title": [
+    {
+      "type": 0,
+      "value": "Fjerne kobling til upstream-kontoen?"
+    }
+  ],
+  "pages.users.filters.active": [
+    {
+      "type": 0,
+      "value": "Aktive brukere"
+    }
+  ],
+  "pages.users.filters.admins": [
+    {
+      "type": 0,
+      "value": "Administratorer"
+    }
+  ],
+  "pages.users.filters.deactivated": [
+    {
+      "type": 0,
+      "value": "Deaktiverte brukere"
+    }
+  ],
+  "pages.users.filters.guests": [
+    {
+      "type": 0,
+      "value": "Gjester (legacy)"
+    }
+  ],
+  "pages.users.filters.locked": [
+    {
+      "type": 0,
+      "value": "Låste brukere"
+    }
+  ],
+  "pages.users.filters.newest_first": [
+    {
+      "type": 0,
+      "value": "Nyeste først"
+    }
+  ],
+  "pages.users.filters.non_guests": [
+    {
+      "type": 0,
+      "value": "Ikke-gjester (legacy)"
+    }
+  ],
+  "pages.users.lock_account.alert.description": [
+    {
+      "type": 0,
+      "value": "Denne brukeren vil automatisk bli låst ute fra alle enheter vedkommende er logget på for øyeblikket, og vil ikke kunne logge på nye enheter før de er låst opp."
+    }
+  ],
+  "pages.users.lock_account.alert.title": [
+    {
+      "type": 0,
+      "value": "Brukeren vil ikke kunne sende eller motta meldinger"
+    }
+  ],
+  "pages.users.lock_account.button": [
+    {
+      "type": 0,
+      "value": "Lås konto"
+    }
+  ],
+  "pages.users.lock_account.error": [
+    {
+      "type": 0,
+      "value": "Kunne ikke låse kontoen"
+    }
+  ],
+  "pages.users.lock_account.success": [
+    {
+      "type": 0,
+      "value": "Kontoen er låst"
+    }
+  ],
+  "pages.users.lock_account.title": [
+    {
+      "type": 0,
+      "value": "Låse denne brukerens konto?"
+    }
+  ],
+  "pages.users.new_user.add_user": [
+    {
+      "type": 0,
+      "value": "Legg til bruker"
+    }
+  ],
+  "pages.users.new_user.create_account": [
+    {
+      "type": 0,
+      "value": "Opprett konto"
+    }
+  ],
+  "pages.users.new_user.description": [
+    {
+      "type": 0,
+      "value": "For å legge til en ny bruker på "
+    },
+    {
+      "type": 1,
+      "value": "serverName"
+    },
+    {
+      "type": 0,
+      "value": " , velg et brukernavn for denne brukeren, som vil være en del av vedkommendes bruker-ID."
+    }
+  ],
+  "pages.users.new_user.error_message": [
+    {
+      "type": 0,
+      "value": "Feil ved oppretting av bruker"
+    }
+  ],
+  "pages.users.new_user.invalid_localpart": [
+    {
+      "type": 0,
+      "value": "Lokal del kan bare inneholde små bokstaver, tall og understrek"
+    }
+  ],
+  "pages.users.new_user.invalid_localpart_numeric_only": [
+    {
+      "type": 0,
+      "value": "Lokal del kan ikke bare inneholde tall"
+    }
+  ],
+  "pages.users.new_user.localpart": [
+    {
+      "type": 0,
+      "value": "Skriv inn navn"
+    }
+  ],
+  "pages.users.new_user.required_error": [
+    {
+      "type": 0,
+      "value": "Dette feltet er obligatorisk"
+    }
+  ],
+  "pages.users.new_user.success_message": [
+    {
+      "type": 0,
+      "value": "Bruker opprettet"
+    }
+  ],
+  "pages.users.not_found.description": [
+    {
+      "type": 0,
+      "value": "Den forespurte brukeren ("
+    },
+    {
+      "type": 1,
+      "value": "userId"
+    },
+    {
+      "type": 0,
+      "value": ") kunne ikke bli funnet på "
+    },
+    {
+      "type": 1,
+      "value": "serverName"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "pages.users.not_found.title": [
+    {
+      "type": 0,
+      "value": "Bruker ikke funnet"
+    }
+  ],
+  "pages.users.reactivate_account.button": [
+    {
+      "type": 0,
+      "value": "Aktiver på nytt"
+    }
+  ],
+  "pages.users.reactivate_account.error": [
+    {
+      "type": 0,
+      "value": "Kunne ikke aktivere kontoen på nytt"
+    }
+  ],
+  "pages.users.reactivate_account.success": [
+    {
+      "type": 0,
+      "value": "Kontoen er aktivert på nytt"
+    }
+  ],
+  "pages.users.search_placeholder": [
+    {
+      "type": 0,
+      "value": "Søk etter brukere"
+    }
+  ],
+  "pages.users.set_admin.alert.description": [
+    {
+      "type": 0,
+      "value": "Brukeren vil kunne se brukerdata og gjøre endringer i bruker- og romtillatelser."
+    }
+  ],
+  "pages.users.set_admin.alert.title": [
+    {
+      "type": 0,
+      "value": "Brukeren vil ha tilgang til sensitive data"
+    }
+  ],
+  "pages.users.set_admin.error": [
+    {
+      "type": 0,
+      "value": "Kunne ikke endre administratorrettigheter for "
+    },
+    {
+      "type": 1,
+      "value": "mxid"
+    }
+  ],
+  "pages.users.set_admin.label": [
+    {
+      "type": 0,
+      "value": "Administrator"
+    }
+  ],
+  "pages.users.set_admin.make_admin_button": [
+    {
+      "type": 0,
+      "value": "Gjør til administrator"
+    }
+  ],
+  "pages.users.set_admin.successfully_demoted": [
+    {
+      "type": 1,
+      "value": "mxid"
+    },
+    {
+      "type": 0,
+      "value": " har ikke lenger administratorrettigheter"
+    }
+  ],
+  "pages.users.set_admin.successfully_promoted": [
+    {
+      "type": 1,
+      "value": "mxid"
+    },
+    {
+      "type": 0,
+      "value": " har nå administratorrettigheter"
+    }
+  ],
+  "pages.users.set_admin.title": [
+    {
+      "type": 0,
+      "value": "Vil du gjøre denne brukeren til administrator?"
+    }
+  ],
+  "pages.users.set_password.button": [
+    {
+      "type": 0,
+      "value": "Endre passord"
+    }
+  ],
+  "pages.users.set_password.confirm_password_label": [
+    {
+      "type": 0,
+      "value": "Skriv inn passordet på nytt"
+    }
+  ],
+  "pages.users.set_password.error": [
+    {
+      "type": 0,
+      "value": "Kunne sette nytt passord"
+    }
+  ],
+  "pages.users.set_password.error.password_missing": [
+    {
+      "type": 0,
+      "value": "Dette feltet er obligatorisk"
+    }
+  ],
+  "pages.users.set_password.error.passwords_mismatch": [
+    {
+      "type": 0,
+      "value": "Passordene samsvarer ikke"
+    }
+  ],
+  "pages.users.set_password.password_label": [
+    {
+      "type": 0,
+      "value": "Passord"
+    }
+  ],
+  "pages.users.set_password.password_match": [
+    {
+      "type": 0,
+      "value": "Passordene stemmer overens!"
+    }
+  ],
+  "pages.users.set_password.submit": [
+    {
+      "type": 0,
+      "value": "Angi nytt passord"
+    }
+  ],
+  "pages.users.set_password.success": [
+    {
+      "type": 0,
+      "value": "Passordet er angitt"
+    }
+  ],
+  "pages.users.set_password.title": [
+    {
+      "type": 0,
+      "value": "Angi et nytt passord for denne brukeren"
+    }
+  ],
+  "pages.users.title": [
+    {
+      "type": 0,
+      "value": "Brukere"
+    }
+  ],
+  "pages.users.unlock_account.button": [
+    {
+      "type": 0,
+      "value": "Lås opp kontoen"
+    }
+  ],
+  "pages.users.unlock_account.error": [
+    {
+      "type": 0,
+      "value": "Kunne ikke låse opp kontoen"
+    }
+  ],
+  "pages.users.unlock_account.success": [
+    {
+      "type": 0,
+      "value": "Kontoen er låst opp"
+    }
+  ],
+  "pages.users.user_count": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " bruker"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " brukere"
+            }
+          ]
+        },
+        "zero": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Ingen brukere"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "COUNT"
+    }
+  ],
+  "product.element": [
+    {
+      "type": 0,
+      "value": "Element"
+    }
+  ],
+  "product.title": [
+    {
+      "type": 0,
+      "value": "Element Admin"
+    }
+  ],
+  "product.title.community": [
+    {
+      "type": 0,
+      "value": "Element Community"
+    }
+  ],
+  "product.title.pro": [
+    {
+      "type": 0,
+      "value": "Element Pro"
+    }
+  ],
+  "product.title.ti-m": [
+    {
+      "type": 0,
+      "value": "Element TI-Messenger"
+    }
+  ],
+  "room_info.empty_room": [
+    {
+      "type": 0,
+      "value": "Tomt rom"
+    }
+  ],
+  "room_info.empty_space": [
+    {
+      "type": 0,
+      "value": "Tomt område"
+    }
+  ],
+  "room_info.room_with": [
+    {
+      "type": 0,
+      "value": "Rom med "
+    },
+    {
+      "type": 1,
+      "value": "members"
+    }
+  ],
+  "room_info.space_with": [
+    {
+      "type": 0,
+      "value": "Område med "
+    },
+    {
+      "type": 1,
+      "value": "members"
+    }
+  ],
+  "room_info.unknown_user": [
+    {
+      "type": 0,
+      "value": "Ukjent bruker"
+    }
+  ],
+  "rooms_info.other_members": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " annen"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " andre"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "COUNT"
+    }
+  ],
+  "ui.data.failed_to_load": [
+    {
+      "type": 0,
+      "value": "Kunne ikke laste inn"
+    }
+  ],
+  "ui.data.loading": [
+    {
+      "type": 0,
+      "value": "Laster inn verdi"
+    }
+  ],
+  "ui.language_switcher.browser_default": [
+    {
+      "type": 0,
+      "value": "Bruk nettleserinnstillingene ("
+    },
+    {
+      "type": 1,
+      "value": "language"
+    },
+    {
+      "type": 0,
+      "value": " )"
+    }
+  ],
+  "ui.language_switcher.button_label": [
+    {
+      "type": 0,
+      "value": "Språkinnstillinger"
+    }
+  ],
+  "ui.language_switcher.description": [
+    {
+      "type": 0,
+      "value": "Velg ditt foretrukne språk for grensesnittet."
+    }
+  ],
+  "ui.language_switcher.language_list_label": [
+    {
+      "type": 0,
+      "value": "List of available languages"
+    }
+  ],
+  "ui.language_switcher.title": [
+    {
+      "type": 0,
+      "value": "Språkinnstillinger"
+    }
+  ],
+  "ui.user_picker.loading_list": [
+    {
+      "type": 0,
+      "value": "Loading…"
+    }
+  ],
+  "ui.user_picker.no_match": [
+    {
+      "type": 0,
+      "value": "No match"
+    }
+  ],
+  "ui.user_picker.no_match_help": [
+    {
+      "type": 0,
+      "value": "Try a different search term. This can only lookup active users on "
+    },
+    {
+      "type": 1,
+      "value": "serverName"
+    },
+    {
+      "type": 0,
+      "value": " using their localpart."
+    }
+  ]
+}

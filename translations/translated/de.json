@@ -1,0 +1,929 @@
+{
+  "action.add": {
+    "message": "Hinzufügen"
+  },
+  "action.cancel": {
+    "message": "Abbrechen"
+  },
+  "action.clear": {
+    "message": "Zurücksetzen"
+  },
+  "action.close": {
+    "message": "Schließen"
+  },
+  "action.copy": {
+    "message": "Kopieren"
+  },
+  "action.delete": {
+    "message": "Delete"
+  },
+  "action.go_back": {
+    "message": "Zurück"
+  },
+  "action.remove": {
+    "message": "Entfernen"
+  },
+  "action.retry": {
+    "message": "Erneut versuchen"
+  },
+  "action.sign_in": {
+    "message": "Anmelden"
+  },
+  "action.sign_out": {
+    "message": "Abmelden"
+  },
+  "common.email_address": {
+    "message": "E-Mail Adresse"
+  },
+  "common.filter": {
+    "message": "Filter"
+  },
+  "errors.http_fetch": {
+    "message": "Anfrage an {url} fehlgeschlagen"
+  },
+  "errors.http_fetch_json_decoding": {
+    "message": "JSON-Antwort von {url} konnte nicht dekodiert werden"
+  },
+  "errors.http_status": {
+    "message": "Anfrage an {url} fehlgeschlagen mit Statuscode {status} {statusText}"
+  },
+  "errors.matrix_standard": {
+    "message": "Die Anfrage an den Homeserver ist mit dem Fehlercode „{errorCode}” fehlgeschlagen. Zusätzlich hat der Server die folgende Fehlernachricht ausgegeben: {errorMessage}"
+  },
+  "errors.not_logged_in": {
+    "message": "Nicht angemeldet"
+  },
+  "footer.copyright_notice": {
+    "message": "Copyright © {now, date, ::yyyy}"
+  },
+  "footer.help_and_support": {
+    "message": "Hilfe & Support"
+  },
+  "footer.legal": {
+    "message": "Rechtliche Hinweise"
+  },
+  "footer.privacy": {
+    "message": "Datenschutz"
+  },
+  "header.user_menu.title": {
+    "message": "Konto-Menü"
+  },
+  "marketing.also_available_in_pro.description": {
+    "message": "<p><link>ESS Pro</link> ist die kommerzielle Backend-Distribution von Element.</p> <p>Sie umfasst alle Funktionen von ESS Community sowie zusätzliche Funktionen und Dienste, die auf professionelle Umgebungen mit mehr als 100 Benutzern bis hin zu Millionen von Benutzern zugeschnitten sind.</p> <p>Sie wurde entwickelt, um Unternehmensanforderungen in Bezug auf erweiterte IAM, Compliance, Skalierbarkeit, Hochverfügbarkeit und Mandantenfähigkeit zu unterstützen.</p>"
+  },
+  "marketing.also_available_in_pro.title": {
+    "message": "Auch in Pro verfügbar…"
+  },
+  "marketing.also_available_in_pro.upgrade": {
+    "message": "Upgrade auf Pro"
+  },
+  "marketing.auditing.description": {
+    "message": "<p>Auditing ermöglicht es Unternehmen, Aufzeichnungen von verschlüsselten Unterhaltungen und Chat-Events zu führen, um Compliance- oder gesetzliche Anforderungen zu erfüllen.</p> <p>Wenn diese Funktion aktiviert ist, ist für alle Endbenutzer sichtbar, welche Chats aufgezeichnet werden, um die Transparenz des Auditing-Prozesses zu gewährleisten.</p> <p>Das Auditing kann entsprechend den spezifischen Anforderungen einer Organisation konfiguriert werden. So können beispielsweise Direktnachrichten zwischen zwei Personen ausgeschlossen werden, sodass nur Gruppengespräche aufgezeichnet werden.</p> <p>Audit-Daten werden als Stream maschinenlesbarer Events im JSON-Format entweder im Dateispeicher oder in S3 gespeichert und können zur weiteren Filterung und Analyse an Log-Analyse-Tools weitergeleitet werden.</p>"
+  },
+  "marketing.auditing.title": {
+    "message": "Auditing"
+  },
+  "marketing.moderation.description": {
+    "message": "<p>Moderation ermöglicht es einer Organisation, alle Chats von einem zentralen Punkt aus zu verwalten. Ein „Moderator”-Konto tritt definierten Chats mit Administratorrechten bei. Serveradministratoren können sich nahtlos über die Adminkonsole in das Konto einloggen, um ihre Chats zu verwalten und zu moderieren.</p> <ul> <li>Chats und deren Einstellungen verwalten (Name, Thema, Berechtigungen usw.)</li> <li>Raummitgliedschaften verwalten</li> <li>Unerwünschte Nachrichten und hochgeladene Medien entfernen</li> <li>Verlassene Chats wiederherstellen (alle Benutzer haben den Chat verlassen)</li> <li>Das Moderator-Konto kann entweder verschlüsselte Nachrichtinhalte lesen oder nicht (konfigurierbar)</li> </ul>"
+  },
+  "marketing.moderation.title": {
+    "message": "Moderation"
+  },
+  "navigation.auditing": {
+    "message": "Auditing"
+  },
+  "navigation.dashboard": {
+    "message": "Dashboard"
+  },
+  "navigation.documentation": {
+    "message": "Dokumentation"
+  },
+  "navigation.moderation": {
+    "message": "Moderation"
+  },
+  "navigation.personal_tokens": {
+    "message": "Persönliche Token"
+  },
+  "navigation.registration_tokens": {
+    "message": "Registrierungstoken"
+  },
+  "navigation.rooms": {
+    "message": "Chats"
+  },
+  "navigation.users": {
+    "message": "Nutzer"
+  },
+  "pages.auditing.title": {
+    "message": "Auditing"
+  },
+  "pages.auditing.unavailable_alert.description": {
+    "message": "Diese Funktion ist in ESS Community nicht verfügbar. Wechseln Sie zu ESS Pro, um sie zu aktivieren."
+  },
+  "pages.auditing.unavailable_alert.title": {
+    "message": "Auditing ist in ESS Pro verfügbar."
+  },
+  "pages.dashboard.current_ess_version": {
+    "message": "ESS-Version"
+  },
+  "pages.dashboard.latest_ess_version": {
+    "message": "Neueste ESS-Version"
+  },
+  "pages.dashboard.new_ess_release": {
+    "message": "(Neues Release)"
+  },
+  "pages.dashboard.registered_users_count": {
+    "message": "Registrierte Nutzer"
+  },
+  "pages.dashboard.rooms_count": {
+    "message": "Gesamtzahl der Chats"
+  },
+  "pages.dashboard.running_latest_ess": {
+    "message": "(Du verwendest die neueste Version)"
+  },
+  "pages.dashboard.synapse_version": {
+    "message": "Synapse-Version"
+  },
+  "pages.dashboard.title": {
+    "message": "Dashboard"
+  },
+  "pages.generic_error.go_home": {
+    "message": "Gehe zur Startseite"
+  },
+  "pages.generic_error.sign_out_and_reload": {
+    "message": "Abmelden und neu laden"
+  },
+  "pages.generic_error.technical_details.item": {
+    "message": "{name}: {message}"
+  },
+  "pages.generic_error.text": {
+    "message": "Das könnte an einem Fehler liegen oder daran, dass der Homeserver nicht erreichbar ist. Du kannst versuchen, die Seite nochmal zu laden, zur vorherigen Seite zurückgehen oder alles zurücksetzen und zur Startseite zurückkehren."
+  },
+  "pages.generic_error.title": {
+    "message": "Ein unerwarteter Fehler ist aufgetreten"
+  },
+  "pages.landing.description": {
+    "message": "Verwalte die Bereitstellung der Element-App für deine Organisation oder Community."
+  },
+  "pages.login.errors.no_auth_metadata": {
+    "message": "Das Laden der Metadaten des Servers für die Authentifizierung ist fehlgeschlagen. Der Homeserver ist möglicherweise nicht erreichbar oder nicht für die Verwendung des Matrix Authentication Service konfiguriert."
+  },
+  "pages.login.errors.no_client_metadata": {
+    "message": "Die Registrierung der Anwendung ist fehlgeschlagen. Der Matrix Authentication Service ist möglicherweise nicht erreichbar oder falsch konfiguriert."
+  },
+  "pages.login.errors.no_well_known": {
+    "message": "Das \"well-known\" Dokument des Servers konnte nicht geladen werden. Der Servername ist möglicherweise ungültig."
+  },
+  "pages.login.get_started": {
+    "message": "Los geht's"
+  },
+  "pages.login.server_name": {
+    "message": "Servername"
+  },
+  "pages.login.title": {
+    "message": "Login"
+  },
+  "pages.moderation.description": {
+    "message": "Melden Sie sich als <b>{mxid}</b> an, um administrative Aktionen in jedem beliebigen Chat durchzuführen."
+  },
+  "pages.moderation.disabled_alert.description": {
+    "message": "Diese Funktion ist Bestandteil Ihres Abonnements. Sie können einen Administrator bitten, sie zu aktivieren."
+  },
+  "pages.moderation.disabled_alert.title": {
+    "message": "Moderation ist derzeit deaktiviert"
+  },
+  "pages.moderation.errors.cant_open.description": {
+    "message": "Ihr Browser blockiert das Öffnen von Popup-Fenstern. Bitte stellen Sie sicher, dass Sie Popups von dieser Website zulassen."
+  },
+  "pages.moderation.errors.cant_open.title": {
+    "message": "Die Moderationsoberfläche konnte nicht in einem neuen Fenster geöffnet werden."
+  },
+  "pages.moderation.errors.closed.description": {
+    "message": "Die Anmeldung bei der Moderationsschnittstelle ist fehlgeschlagen, da diese geschlossen wurde, bevor die Anmeldung abgeschlossen werden konnte."
+  },
+  "pages.moderation.errors.closed.title": {
+    "message": "Die Moderationsoberfläche wurde vorzeitig geschlossen."
+  },
+  "pages.moderation.errors.generic.title": {
+    "message": "Beim Öffnen der Moderationsoberfläche ist ein unerwarteter Fehler aufgetreten."
+  },
+  "pages.moderation.missing_ui_address.description": {
+    "message": "Moderation ist in Ihrer Umgebung aktiviert, jedoch nicht in Element Web, das für die Funktion der Moderationsoberfläche erforderlich ist."
+  },
+  "pages.moderation.missing_ui_address.title": {
+    "message": "Die Moderationsoberfläche erfordert, dass Element Web aktiviert ist."
+  },
+  "pages.moderation.recovery_key.copied": {
+    "message": "Wiederherstellungsschlüssel kopiert"
+  },
+  "pages.moderation.recovery_key.copy_failed": {
+    "message": "Der Wiederherstellungsschlüssel konnte nicht kopiert werden."
+  },
+  "pages.moderation.recovery_key.help": {
+    "message": "Dies ist der Wiederherstellungsschlüssel, der zum Lesen verschlüsselter Nachrichten benötigt wird."
+  },
+  "pages.moderation.recovery_key.label": {
+    "message": "Wiederherstellungsschlüssel"
+  },
+  "pages.moderation.title": {
+    "message": "Moderation"
+  },
+  "pages.moderation.unavailable_alert.description": {
+    "message": "Diese Funktion ist in ESS Community nicht verfügbar. Wechseln Sie zu ESS Pro, um sie zu aktivieren."
+  },
+  "pages.moderation.unavailable_alert.title": {
+    "message": "Moderation ist eine Funktion, die in ESS Pro verfügbar ist."
+  },
+  "pages.personal_tokens.acting_user_column": {
+    "message": "Handelnder Nutzer"
+  },
+  "pages.personal_tokens.acting_user_label": {
+    "message": "Handelnder Nutzer"
+  },
+  "pages.personal_tokens.actor_user_help": {
+    "message": "Der Nutzer, in dessen Namen gehandelt wird"
+  },
+  "pages.personal_tokens.actor_user_label": {
+    "message": "Handelnder Nutzer"
+  },
+  "pages.personal_tokens.add_token_title": {
+    "message": "Persönliches Token hinzufügen"
+  },
+  "pages.personal_tokens.cant_regenerate_tooltip": {
+    "message": "Nur {ownerMxid} kann dieses Token neu generieren."
+  },
+  "pages.personal_tokens.cant_regenerate_tooltip_generic": {
+    "message": "Nur der Eigentümer des Tokens kann es neu generieren."
+  },
+  "pages.personal_tokens.count": {
+    "message": "{count, plural, =0 {Kein persönliches Token} one {# persönliches Token} other {# persönliche Token}}"
+  },
+  "pages.personal_tokens.create_error": {
+    "message": "Es konnte kein persönliches Token erstellt werden."
+  },
+  "pages.personal_tokens.create_success": {
+    "message": "Persönliches Token erfolgreich erstellt"
+  },
+  "pages.personal_tokens.create_token": {
+    "message": "Token erstellen"
+  },
+  "pages.personal_tokens.created_at_label": {
+    "message": "Erstellt am"
+  },
+  "pages.personal_tokens.description": {
+    "message": "Persönliche Token sind langlebige Zugriffstoken mit spezifischen Berechtigungen, darunter der Zugriff auf die Synapse- und MAS-Admin-API. Sie eignen sich zur Automatisierung von Aufgaben und zur Erstellung von Integrationen."
+  },
+  "pages.personal_tokens.device_id_help": {
+    "message": "Bitte leer lassen, um eine zufällige 10-stellige Geräte-ID zu generieren."
+  },
+  "pages.personal_tokens.device_id_label": {
+    "message": "Geräte-ID"
+  },
+  "pages.personal_tokens.device_id_placeholder": {
+    "message": "ABCDEFGHIJ"
+  },
+  "pages.personal_tokens.expires_at_column": {
+    "message": "Ablaufdatum"
+  },
+  "pages.personal_tokens.expires_at_label": {
+    "message": "Ablaufdatum"
+  },
+  "pages.personal_tokens.expires_in_help": {
+    "message": "Bitte für Token, die nicht verfallen, leer lassen."
+  },
+  "pages.personal_tokens.expires_in_label": {
+    "message": "Läuft ab in (Tagen)"
+  },
+  "pages.personal_tokens.expires_in_placeholder": {
+    "message": "30"
+  },
+  "pages.personal_tokens.filter.active": {
+    "message": "Aktiv"
+  },
+  "pages.personal_tokens.filter.expires": {
+    "message": "Mit einem Ablaufdatum"
+  },
+  "pages.personal_tokens.filter.no_expiry": {
+    "message": "Läuft nie ab"
+  },
+  "pages.personal_tokens.filter.revoked": {
+    "message": "Widerrufen"
+  },
+  "pages.personal_tokens.filter.scope_mas_admin": {
+    "message": "Zugriff auf die MAS-Admin-API"
+  },
+  "pages.personal_tokens.filter.scope_matrix_client": {
+    "message": "Zugriff auf die Matrix Client-Server-API"
+  },
+  "pages.personal_tokens.filter.scope_synapse_admin": {
+    "message": "Zugriff auf die Synapse-Admin-API"
+  },
+  "pages.personal_tokens.last_active_column": {
+    "message": "Zuletzt aktiv"
+  },
+  "pages.personal_tokens.last_active_ip_label": {
+    "message": "Letzte aktive IP-Adresse"
+  },
+  "pages.personal_tokens.last_active_label": {
+    "message": "Zuletzt aktiv"
+  },
+  "pages.personal_tokens.loading_more": {
+    "message": "Weitere Token werden geladen …"
+  },
+  "pages.personal_tokens.name_column": {
+    "message": "Name"
+  },
+  "pages.personal_tokens.name_help": {
+    "message": "Ein für Menschen lesbarer Name für das Token, der hilft, es zu identifizieren."
+  },
+  "pages.personal_tokens.name_label": {
+    "message": "Token-Name"
+  },
+  "pages.personal_tokens.name_placeholder": {
+    "message": "Mein Anwendungstoken"
+  },
+  "pages.personal_tokens.never_expires": {
+    "message": "Läuft nie ab"
+  },
+  "pages.personal_tokens.never_used": {
+    "message": "Noch nie verwendet"
+  },
+  "pages.personal_tokens.not_found.description": {
+    "message": "Das gesuchte persönliche Token existiert nicht oder wurde entfernt."
+  },
+  "pages.personal_tokens.not_found.title": {
+    "message": "Persönliches Token nicht gefunden"
+  },
+  "pages.personal_tokens.owner_user_label": {
+    "message": "Eigentümer"
+  },
+  "pages.personal_tokens.regenerate_confirm": {
+    "message": "Token neu generieren"
+  },
+  "pages.personal_tokens.regenerate_error": {
+    "message": "Fehler beim Regenerieren des persönlichen Tokens"
+  },
+  "pages.personal_tokens.regenerate_expires_help": {
+    "message": "Bitte leer lassen, um das gleiche Ablaufdatum wie zuvor beizubehalten, oder lege ein neues Ablaufdatum fest."
+  },
+  "pages.personal_tokens.regenerate_success": {
+    "message": "Persönliches Token erfolgreich neu generiert"
+  },
+  "pages.personal_tokens.regenerate_token": {
+    "message": "Token neu generieren"
+  },
+  "pages.personal_tokens.regenerate_token_title": {
+    "message": "Persönliches Token neu generieren"
+  },
+  "pages.personal_tokens.regenerate_warning": {
+    "message": "Dadurch wird ein neues Zugriffstoken generiert und das aktuelle ungültig. Alle Anwendungen, die das aktuelle Token verwenden, müssen aktualisiert werden."
+  },
+  "pages.personal_tokens.revoke_success": {
+    "message": "Persönliches Token erfolgreich widerrufen"
+  },
+  "pages.personal_tokens.revoke_token": {
+    "message": "Token widerrufen"
+  },
+  "pages.personal_tokens.revoked_at_label": {
+    "message": "Widerrufen am"
+  },
+  "pages.personal_tokens.scope_device_help": {
+    "message": "Bereitstellen eines Matrix-Geräts"
+  },
+  "pages.personal_tokens.scope_mas_admin_help": {
+    "message": "Zugriff auf die MAS-Admin-API"
+  },
+  "pages.personal_tokens.scope_matrix_client_help": {
+    "message": "Zugriff auf die Matrix Client-Server-API"
+  },
+  "pages.personal_tokens.scope_synapse_admin_help": {
+    "message": "Zugriff auf die Synapse-Admin-API"
+  },
+  "pages.personal_tokens.scopes_label": {
+    "message": "Umfang"
+  },
+  "pages.personal_tokens.status.active": {
+    "message": "Aktiv"
+  },
+  "pages.personal_tokens.status.column": {
+    "message": "Status"
+  },
+  "pages.personal_tokens.status.expired": {
+    "message": "Abgelaufen"
+  },
+  "pages.personal_tokens.status.label": {
+    "message": "Status"
+  },
+  "pages.personal_tokens.status.revoked": {
+    "message": "Widerrufen"
+  },
+  "pages.personal_tokens.title": {
+    "message": "Persönliche Token"
+  },
+  "pages.personal_tokens.token_created_description": {
+    "message": "Ein persönliches Token wurde erstellt. Kopiere es jetzt, da es nicht erneut angezeigt wird."
+  },
+  "pages.personal_tokens.token_created_title": {
+    "message": "Persönliches Token erstellt"
+  },
+  "pages.personal_tokens.token_regenerated_description": {
+    "message": "Ein persönliches Token wurde neu generiert. Kopiere es jetzt, da es nicht erneut angezeigt wird."
+  },
+  "pages.personal_tokens.token_regenerated_title": {
+    "message": "Token neu generiert"
+  },
+  "pages.registration_tokens.auto_generate_placeholder": {
+    "message": "Automatisch generieren, wenn leer gelassen"
+  },
+  "pages.registration_tokens.create_token.error": {
+    "message": "Token konnte nicht erstellt werden"
+  },
+  "pages.registration_tokens.create_token.submit": {
+    "message": "Token erstellen"
+  },
+  "pages.registration_tokens.create_token.success": {
+    "message": "Token erfolgreich erstellt"
+  },
+  "pages.registration_tokens.create_token.title": {
+    "message": "Registrierungstoken erstellen"
+  },
+  "pages.registration_tokens.created_at_column": {
+    "message": "Erstellt am"
+  },
+  "pages.registration_tokens.created_at_label": {
+    "message": "Erstellt am"
+  },
+  "pages.registration_tokens.custom_token_help": {
+    "message": "Optionales benutzerdefiniertes Token. Wenn das Feld leer bleibt, wird automatisch ein sicheres Token generiert."
+  },
+  "pages.registration_tokens.custom_token_label": {
+    "message": "Benutzerdefiniertes Token"
+  },
+  "pages.registration_tokens.edit_properties": {
+    "message": "Eigenschaften bearbeiten"
+  },
+  "pages.registration_tokens.edit_token_title": {
+    "message": "Registrierungstoken bearbeiten"
+  },
+  "pages.registration_tokens.expires_at_field": {
+    "message": "Ablaufdatum"
+  },
+  "pages.registration_tokens.expires_at_help": {
+    "message": "Ablaufdatum. Lass das Feld leer, wenn das Token nie ablaufen soll."
+  },
+  "pages.registration_tokens.expires_at_label": {
+    "message": "Ablaufdatum"
+  },
+  "pages.registration_tokens.filters.active_only": {
+    "message": "Aktiv"
+  },
+  "pages.registration_tokens.filters.expired_only": {
+    "message": "Abgelaufen"
+  },
+  "pages.registration_tokens.filters.revoked_only": {
+    "message": "Widerrufen"
+  },
+  "pages.registration_tokens.filters.unused_only": {
+    "message": "Ungenutzt"
+  },
+  "pages.registration_tokens.filters.used_only": {
+    "message": "Genutzt"
+  },
+  "pages.registration_tokens.loading_more": {
+    "message": "Weitere Token werden geladen …"
+  },
+  "pages.registration_tokens.never_expires": {
+    "message": "Läuft nie ab"
+  },
+  "pages.registration_tokens.no_expiration_placeholder": {
+    "message": "Kein Ablaufdatum"
+  },
+  "pages.registration_tokens.not_found.description": {
+    "message": "Das angeforderte Registrierungstoken ({tokenId}) konnte auf {serverName} nicht gefunden werden."
+  },
+  "pages.registration_tokens.not_found.title": {
+    "message": "Registrierungstoken nicht gefunden"
+  },
+  "pages.registration_tokens.revoke_token": {
+    "message": "Token widerrufen"
+  },
+  "pages.registration_tokens.revoked_at_label": {
+    "message": "Widerrufen am"
+  },
+  "pages.registration_tokens.save_changes": {
+    "message": "Speichern"
+  },
+  "pages.registration_tokens.status.active": {
+    "message": "Aktiv"
+  },
+  "pages.registration_tokens.status.column": {
+    "message": "Status"
+  },
+  "pages.registration_tokens.status.expired": {
+    "message": "Abgelaufen"
+  },
+  "pages.registration_tokens.status.invalid": {
+    "message": "Ungültig"
+  },
+  "pages.registration_tokens.status.label": {
+    "message": "Status"
+  },
+  "pages.registration_tokens.status.revoked": {
+    "message": "Widerrufen"
+  },
+  "pages.registration_tokens.status.used_up": {
+    "message": "Aufgebraucht"
+  },
+  "pages.registration_tokens.title": {
+    "message": "Registrierungstoken"
+  },
+  "pages.registration_tokens.token_column": {
+    "message": "Token"
+  },
+  "pages.registration_tokens.token_count": {
+    "message": "{COUNT, plural, zero {Keine Token} one {# Token} other {# Token}}"
+  },
+  "pages.registration_tokens.token_uses.limited": {
+    "message": "{uses, number} / {limit, number}"
+  },
+  "pages.registration_tokens.token_uses.unlimited": {
+    "message": "{uses, number} / ∞"
+  },
+  "pages.registration_tokens.unlimited_placeholder": {
+    "message": "Unbegrenzt"
+  },
+  "pages.registration_tokens.unlimited_uses_placeholder": {
+    "message": "Für unbegrenzte Nutzung leer lassen"
+  },
+  "pages.registration_tokens.unrevoke_token": {
+    "message": "Widerruf des Tokens rückgängig machen"
+  },
+  "pages.registration_tokens.usage_count_label": {
+    "message": "Nutzungsanzahl"
+  },
+  "pages.registration_tokens.usage_limit_field": {
+    "message": "Nutzungslimit"
+  },
+  "pages.registration_tokens.usage_limit_help": {
+    "message": "Maximale Anzahl der Verwendungen dieses Tokens. Für unbegrenzte Verwendungen leer lassen."
+  },
+  "pages.registration_tokens.usage_limit_label": {
+    "message": "Nutzungslimit"
+  },
+  "pages.registration_tokens.uses_column": {
+    "message": "Verwendungen"
+  },
+  "pages.registration_tokens.valid_until_column": {
+    "message": "Gültig bis"
+  },
+  "pages.rooms.delete_room.alert.description": {
+    "message": "This will permanently delete all messages or media uploaded to the server and remove this room from the directory. Members will lose access to their messages and the room will be removed from their room list."
+  },
+  "pages.rooms.delete_room.alert.title": {
+    "message": "You’re about to delete room data"
+  },
+  "pages.rooms.delete_room.block.help": {
+    "message": "Prevent users from rejoining the room after deletion."
+  },
+  "pages.rooms.delete_room.block.label": {
+    "message": "Block room"
+  },
+  "pages.rooms.delete_room.button": {
+    "message": "Delete permanently"
+  },
+  "pages.rooms.delete_room.error": {
+    "message": "Failed to schedule room deletion"
+  },
+  "pages.rooms.delete_room.success": {
+    "message": "Room deletion scheduled"
+  },
+  "pages.rooms.delete_room.title": {
+    "message": "Delete this room?"
+  },
+  "pages.rooms.deletion.failure.description": {
+    "message": "Room deletion task failed on {timestamp, date, short} at {timestamp, time, short} with error: {error}"
+  },
+  "pages.rooms.deletion.failure.title": {
+    "message": "Deletion failed"
+  },
+  "pages.rooms.deletion.in_progress.description": {
+    "message": "Room deletion task is in progress since {timestamp, date, short} at {timestamp, time, short}."
+  },
+  "pages.rooms.deletion.in_progress.title": {
+    "message": "Deletion in progress"
+  },
+  "pages.rooms.deletion.success.description": {
+    "message": "Room deletion task completed successfully on {timestamp, date, short} at {timestamp, time, short}."
+  },
+  "pages.rooms.deletion.success.title": {
+    "message": "Deletion successful"
+  },
+  "pages.rooms.filters.empty_rooms": {
+    "message": "Leere Chats"
+  },
+  "pages.rooms.filters.non_empty_rooms": {
+    "message": "Genutzte Chats"
+  },
+  "pages.rooms.filters.private_rooms": {
+    "message": "Private Chats"
+  },
+  "pages.rooms.filters.public_rooms": {
+    "message": "Öffentliche Chats"
+  },
+  "pages.rooms.not_found.description": {
+    "message": "Der angeforderte Chat ({roomId}) konnte auf {serverName} nicht gefunden werden."
+  },
+  "pages.rooms.not_found.title": {
+    "message": "Chat nicht gefunden"
+  },
+  "pages.rooms.room_count": {
+    "message": "{COUNT, plural, =0 {Keine Chats} one {# Chat} other {# Chats}}"
+  },
+  "pages.rooms.title": {
+    "message": "Chats"
+  },
+  "pages.users.add_email.button": {
+    "message": "E-Mail hinzufügen"
+  },
+  "pages.users.add_email.description": {
+    "message": "Füge diesem Nutzer eine E-Mail-Adresse hinzu"
+  },
+  "pages.users.add_email.error": {
+    "message": "E-Mail-Adresse konnte nicht hinzugefügt werden"
+  },
+  "pages.users.add_email.error.email_invalid": {
+    "message": "Ungültige E-Mail Adresse"
+  },
+  "pages.users.add_email.error.email_missing": {
+    "message": "Dies ist ein Pflichtfeld"
+  },
+  "pages.users.add_email.success": {
+    "message": "E-Mail Adresse hinzugefügt"
+  },
+  "pages.users.add_email.title": {
+    "message": "E-Mail Adresse hinzufügen"
+  },
+  "pages.users.add_upstream_link.error": {
+    "message": "Fehler beim Verbinden des Upstream-Kontos"
+  },
+  "pages.users.add_upstream_link.success": {
+    "message": "Link zum Upstream-Konto hinzugefügt"
+  },
+  "pages.users.deactivate_account.alert.description": {
+    "message": "Der Nutzer wird durch diese Aktion automatisch von allen Geräten abgemeldet, alle Zugriffstoken werden entfernt, alle IDs von Drittanbietern werden entfernt und die Kontodaten werden dauerhaft entfernt."
+  },
+  "pages.users.deactivate_account.alert.title": {
+    "message": "Du bist dabei, Nutzerdaten zu entfernen"
+  },
+  "pages.users.deactivate_account.button": {
+    "message": "Nutzerkonto deaktivieren"
+  },
+  "pages.users.deactivate_account.error": {
+    "message": "Konto konnte nicht deaktiviert werden"
+  },
+  "pages.users.deactivate_account.success": {
+    "message": "Konto deaktiviert"
+  },
+  "pages.users.deactivate_account.title": {
+    "message": "Diesen Nutzer deaktivieren?"
+  },
+  "pages.users.delete_email.description": {
+    "message": "Soll diese E-Mail-Adresse ({email}) von diesem Nutzer ({mxid}) wirklich entfernt werden?"
+  },
+  "pages.users.delete_email.error": {
+    "message": "E-Mail Adresse konnte nicht entfernt werden"
+  },
+  "pages.users.delete_email.success": {
+    "message": "E-Mail Adresse entfernt"
+  },
+  "pages.users.delete_email.title": {
+    "message": "E-Mail Adresse entfernen?"
+  },
+  "pages.users.delete_upstream_link.description": {
+    "message": "Soll die Verbindung zwischen diesem Nutzer ({mxid}) mit diesem Upstream-Konto ({subject}) wirklich entfernt werden?"
+  },
+  "pages.users.delete_upstream_link.error": {
+    "message": "Upstream-Verbindung konnte nicht entfernt werden"
+  },
+  "pages.users.delete_upstream_link.success": {
+    "message": "Upstream-Verbindung entfernt"
+  },
+  "pages.users.delete_upstream_link.title": {
+    "message": "Verbindung mit dem Upstream-Konto entfernen?"
+  },
+  "pages.users.filters.active": {
+    "message": "Aktive Nutzer"
+  },
+  "pages.users.filters.admins": {
+    "message": "Admins"
+  },
+  "pages.users.filters.deactivated": {
+    "message": "Deaktivierte Nutzer"
+  },
+  "pages.users.filters.guests": {
+    "message": "Gäste (Legacy)"
+  },
+  "pages.users.filters.locked": {
+    "message": "Gesperrte Nutzer"
+  },
+  "pages.users.filters.newest_first": {
+    "message": "Neueste zuerst"
+  },
+  "pages.users.filters.non_guests": {
+    "message": "Nicht-Gäste (Legacy)"
+  },
+  "pages.users.lock_account.alert.description": {
+    "message": "Dieser Nutzer wird automatisch auf allen angemeldeten Geräten gesperrt und kann sich erst bei neuen Geräten anmelden, wenn diese entsperrt wurden."
+  },
+  "pages.users.lock_account.alert.title": {
+    "message": "Der Nutzer kann keine Nachrichten mehr senden oder empfangen."
+  },
+  "pages.users.lock_account.button": {
+    "message": "Konto sperren"
+  },
+  "pages.users.lock_account.error": {
+    "message": "Konto konnte nicht gesperrt werden"
+  },
+  "pages.users.lock_account.success": {
+    "message": "Konto gesperrt"
+  },
+  "pages.users.lock_account.title": {
+    "message": "Das Konto dieses Nutzers sperren?"
+  },
+  "pages.users.new_user.add_user": {
+    "message": "Nutzer hinzufügen"
+  },
+  "pages.users.new_user.create_account": {
+    "message": "Konto erstellen"
+  },
+  "pages.users.new_user.description": {
+    "message": "Um einen neuen Nutzer zu {serverName} hinzuzufügen, wähle einen Nutzernamen aus, der Teil der Nutzer-ID sein wird."
+  },
+  "pages.users.new_user.error_message": {
+    "message": "Fehler beim Anlegen des Nutzers"
+  },
+  "pages.users.new_user.invalid_localpart": {
+    "message": "Der lokale Teil darf nur Kleinbuchstaben, Zahlen, Punkte, Unterstriche, Bindestriche und Schrägstriche enthalten"
+  },
+  "pages.users.new_user.invalid_localpart_numeric_only": {
+    "message": "Der lokale Teil darf nicht nur Zahlen enthalten"
+  },
+  "pages.users.new_user.localpart": {
+    "message": "Name eingeben"
+  },
+  "pages.users.new_user.required_error": {
+    "message": "Dies ist ein Pflichtfeld"
+  },
+  "pages.users.new_user.success_message": {
+    "message": "Nutzer angelegt"
+  },
+  "pages.users.not_found.description": {
+    "message": "Der angeforderte Nutzer ({userId}) konnte auf {serverName} nicht gefunden werden."
+  },
+  "pages.users.not_found.title": {
+    "message": "Nutzer nicht gefunden"
+  },
+  "pages.users.reactivate_account.button": {
+    "message": "Reaktivieren"
+  },
+  "pages.users.reactivate_account.error": {
+    "message": "Reaktivierung des Kontos fehlgeschlagen"
+  },
+  "pages.users.reactivate_account.success": {
+    "message": "Konto reaktiviert"
+  },
+  "pages.users.search_placeholder": {
+    "message": "Nutzer suchen..."
+  },
+  "pages.users.set_admin.alert.description": {
+    "message": "Der Nutzer kann Nutzerdaten einsehen und Änderungen an Nutzer- und Chat-Berechtigungen vornehmen."
+  },
+  "pages.users.set_admin.alert.title": {
+    "message": "Nutzer erhält Zugriff auf sensible Daten"
+  },
+  "pages.users.set_admin.error": {
+    "message": "Fehler beim Ändern der Adminrechte für {mxid}"
+  },
+  "pages.users.set_admin.label": {
+    "message": "Admin"
+  },
+  "pages.users.set_admin.make_admin_button": {
+    "message": "Zum Admin machen"
+  },
+  "pages.users.set_admin.successfully_demoted": {
+    "message": "{mxid} hat keine Adminrechte mehr"
+  },
+  "pages.users.set_admin.successfully_promoted": {
+    "message": "{mxid} hat jetzt Adminrechte"
+  },
+  "pages.users.set_admin.title": {
+    "message": "Diesen Nutzer zum Admin machen?"
+  },
+  "pages.users.set_password.button": {
+    "message": "Passwort ändern"
+  },
+  "pages.users.set_password.confirm_password_label": {
+    "message": "Passwort erneut eingeben"
+  },
+  "pages.users.set_password.error": {
+    "message": "Passwort konnte nicht festgelegt werden"
+  },
+  "pages.users.set_password.error.password_missing": {
+    "message": "Dies ist ein Pflichtfeld"
+  },
+  "pages.users.set_password.error.passwords_mismatch": {
+    "message": "Passwörter stimmen nicht überein"
+  },
+  "pages.users.set_password.password_label": {
+    "message": "Passwort"
+  },
+  "pages.users.set_password.password_match": {
+    "message": "Passwörter stimmen überein"
+  },
+  "pages.users.set_password.submit": {
+    "message": "Neues Passwort festlegen"
+  },
+  "pages.users.set_password.success": {
+    "message": "Passwort erfolgreich festgelegt"
+  },
+  "pages.users.set_password.title": {
+    "message": "Neues Passwort für diesen Nutzer festlegen"
+  },
+  "pages.users.title": {
+    "message": "Nutzer"
+  },
+  "pages.users.unlock_account.button": {
+    "message": "Konto entsperren"
+  },
+  "pages.users.unlock_account.error": {
+    "message": "Entsperren des Kontos ist fehlgeschlagen."
+  },
+  "pages.users.unlock_account.success": {
+    "message": "Konto entsperrt"
+  },
+  "pages.users.user_count": {
+    "message": "{COUNT, plural, zero {Keine Nutzer} one {# Nutzer} other {# Nutzer}}"
+  },
+  "product.element": {
+    "message": "Element"
+  },
+  "product.title": {
+    "message": "Element Admin"
+  },
+  "product.title.community": {
+    "message": "Element Community"
+  },
+  "product.title.pro": {
+    "message": "Element Pro"
+  },
+  "product.title.ti-m": {
+    "message": "Element TI-Messenger"
+  },
+  "room_info.empty_room": {
+    "message": "Leerer Chat"
+  },
+  "room_info.empty_space": {
+    "message": "Leerer Space"
+  },
+  "room_info.room_with": {
+    "message": "Chat mit {members}"
+  },
+  "room_info.space_with": {
+    "message": "Space mit {members}"
+  },
+  "room_info.unknown_user": {
+    "message": "Unbekannter Nutzer."
+  },
+  "rooms_info.other_members": {
+    "message": "{COUNT, plural, one {# weiteren} other {# weiteren}}"
+  },
+  "ui.data.failed_to_load": {
+    "message": "Laden fehlgeschlagen"
+  },
+  "ui.data.loading": {
+    "message": "Wert wird geladen"
+  },
+  "ui.language_switcher.browser_default": {
+    "message": "Browser-Einstellungen verwenden ({language})"
+  },
+  "ui.language_switcher.button_label": {
+    "message": "Spracheinstellungen"
+  },
+  "ui.language_switcher.description": {
+    "message": "Wähle deine bevorzugte Sprache für die Benutzeroberfläche"
+  },
+  "ui.language_switcher.language_list_label": {
+    "message": "List of available languages"
+  },
+  "ui.language_switcher.title": {
+    "message": "Spracheinstellungen"
+  },
+  "ui.user_picker.loading_list": {
+    "message": "Lade …"
+  },
+  "ui.user_picker.no_match": {
+    "message": "Keine Übereinstimmung"
+  },
+  "ui.user_picker.no_match_help": {
+    "message": "Probier einen anderen Suchbegriff. Diese Funktion findet nur aktive Nutzer auf {serverName} unter Verwendung des lokalen Teils."
+  }
+}
